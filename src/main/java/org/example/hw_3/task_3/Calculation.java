@@ -2,14 +2,12 @@ package org.example.hw_3.task_3;
 
 public class Calculation {
     public static void main(String[] args) {
+        int firstNumber = 1;
+        int lastNumber = 256;
         int sum = 0;
 
-        // может быть ты здесь решала какую-то другую задачу, у нас была
-        //Task 3
-        //Вычислить: 1+2+4+8+...+256   - мы ведь одно и то же задание решаем?
-
-        for (int i = 0; i <= 8; i++) {
-            sum += 1 << i;
+        for (int i = firstNumber; i <= lastNumber; i *= 2) {
+            sum += i;
         }
         System.out.println(sum);
     }
