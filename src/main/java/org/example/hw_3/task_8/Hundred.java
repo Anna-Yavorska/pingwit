@@ -11,6 +11,7 @@ public class Hundred {
             } else {
                 oddSum += i;
             }
+            // как вариант можно было вычислять общую сумму так totalSum +=i;
         }
         int totalSum = evenSum + oddSum;
 
