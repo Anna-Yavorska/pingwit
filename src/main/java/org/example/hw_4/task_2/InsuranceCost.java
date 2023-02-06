@@ -2,6 +2,7 @@ package org.example.hw_4.task_2;
 
 import java.util.Scanner;
 
+// Отлично!
 public class InsuranceCost {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

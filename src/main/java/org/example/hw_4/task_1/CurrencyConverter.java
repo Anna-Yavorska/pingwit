@@ -2,6 +2,7 @@ package org.example.hw_4.task_1;
 
 import java.util.Scanner;
 
+// Отлично!
 public class CurrencyConverter {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -10,6 +11,7 @@ public class CurrencyConverter {
         double afterConversion;
         System.out.println("Вас приветствует конвертер валют!");
         System.out.println("Введите валюту для конвертации 'eur' или 'uah':");
+        // минимальное замечание: можно было бы назвать переменну не next, а currencyCode, например. исправлять не нужно
         String next = scanner.next();
 
         switch (next) {
