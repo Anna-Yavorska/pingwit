@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb078b7c-f893-4490-ac78-33804eb9f8e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_4/task_1/CurrencyConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_4/task_2/InsuranceCost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_4/task_3/Butterfly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_5/taskWithAsterisk/LongestSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_5/task_1/ArrayThreeElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_5/task_2/Average.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_5/task_3/OddNumbersToZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_5/task_4/MultiplicationTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_5/task_5/ArrayInversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_5/task_6/EvenNumbersArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_5/task_7/BubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_4/task_1/CurrencyConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_4/task_1/CurrencyConverter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +45,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/aniay/IdeaProjects/pingwit-hometasks",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -47,13 +54,13 @@
     "settings.editor.selected.configurable": "preferences.sourceCode"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Butterfly">
-    <configuration name="Butter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_4.task_3.Butter" />
+  <component name="RunManager" selected="Application.ArrayThreeElement">
+    <configuration name="ArrayThreeElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_5.task_1.ArrayThreeElement" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_4.task_3.*" />
+          <option name="PATTERN" value="org.example.hw_5.task_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Butterfly" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_4.task_3.Butterfly" />
+    <configuration name="Average" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_5.task_2.Average" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_4.task_3.*" />
+          <option name="PATTERN" value="org.example.hw_5.task_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CurrencyConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_4.task_1.CurrencyConverter" />
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_5.task_7.BubbleSort" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_4.task_1.*" />
+          <option name="PATTERN" value="org.example.hw_5.task_7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsuranceCost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_4.task_2.InsuranceCost" />
+    <configuration name="MultiplicationTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_5.task_4.MultiplicationTable" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_4.task_2.*" />
+          <option name="PATTERN" value="org.example.hw_5.task_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rhombus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_3.task_9.Rhombus" />
+    <configuration name="OddNumbersToZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_5.task_3.OddNumbersToZero" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_3.task_9.*" />
+          <option name="PATTERN" value="org.example.hw_5.task_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,19 +121,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Butter" />
-      <item itemvalue="Application.Butterfly" />
-      <item itemvalue="Application.CurrencyConverter" />
-      <item itemvalue="Application.InsuranceCost" />
-      <item itemvalue="Application.Rhombus" />
+      <item itemvalue="Application.ArrayThreeElement" />
+      <item itemvalue="Application.Average" />
+      <item itemvalue="Application.BubbleSort" />
+      <item itemvalue="Application.MultiplicationTable" />
+      <item itemvalue="Application.OddNumbersToZero" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Butterfly" />
-        <item itemvalue="Application.InsuranceCost" />
-        <item itemvalue="Application.CurrencyConverter" />
-        <item itemvalue="Application.Butter" />
-        <item itemvalue="Application.Rhombus" />
+        <item itemvalue="Application.ArrayThreeElement" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.Average" />
+        <item itemvalue="Application.OddNumbersToZero" />
+        <item itemvalue="Application.MultiplicationTable" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +145,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675272632259</updated>
-      <workItem from="1675272634293" duration="45997000" />
+      <workItem from="1675272634293" duration="84104000" />
     </task>
     <servers />
   </component>

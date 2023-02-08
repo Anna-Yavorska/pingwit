@@ -11,10 +11,9 @@ public class CurrencyConverter {
         double afterConversion;
         System.out.println("Вас приветствует конвертер валют!");
         System.out.println("Введите валюту для конвертации 'eur' или 'uah':");
-        // минимальное замечание: можно было бы назвать переменну не next, а currencyCode, например. исправлять не нужно
-        String next = scanner.next();
+        String currencyCode = scanner.next();
 
-        switch (next) {
+        switch (currencyCode) {
             case "eur":
                 System.out.println("Введите сумму:");
                 beforeConversion = scanner.nextInt();
@@ -28,7 +27,7 @@ public class CurrencyConverter {
                 System.out.println("К выдаче " + afterConversion + " евро");
                 break;
             default:
-                System.out.println("Валюта " + next + " не поддерживается");
+                System.out.println("Валюта " + currencyCode + " не поддерживается");
                 return;
         }
         System.out.println("Ждём вас снова!");
