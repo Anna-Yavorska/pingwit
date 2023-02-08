@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb078b7c-f893-4490-ac78-33804eb9f8e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_5/taskWithAsterisk/LongestSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_5/task_1/ArrayThreeElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_5/task_2/Average.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_5/task_3/OddNumbersToZero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_5/task_4/MultiplicationTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_5/task_5/ArrayInversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_5/task_6/EvenNumbersArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_5/task_7/BubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_4/task_1/CurrencyConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_4/task_1/CurrencyConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_5/task_5/ArrayInversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_5/task_5/ArrayInversion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +46,20 @@
     "settings.editor.selected.configurable": "preferences.sourceCode"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ArrayThreeElement">
+  <component name="RunManager" selected="Application.ArrayInversion">
+    <configuration name="ArrayInversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_5.task_5.ArrayInversion" />
+      <module name="java-home" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.hw_5.task_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArrayThreeElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.hw_5.task_1.ArrayThreeElement" />
       <module name="java-home" />
@@ -94,19 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiplicationTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_5.task_4.MultiplicationTable" />
-      <module name="java-home" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.hw_5.task_4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OddNumbersToZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.hw_5.task_3.OddNumbersToZero" />
       <module name="java-home" />
@@ -121,19 +113,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ArrayInversion" />
       <item itemvalue="Application.ArrayThreeElement" />
       <item itemvalue="Application.Average" />
       <item itemvalue="Application.BubbleSort" />
-      <item itemvalue="Application.MultiplicationTable" />
       <item itemvalue="Application.OddNumbersToZero" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayInversion" />
         <item itemvalue="Application.ArrayThreeElement" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.Average" />
         <item itemvalue="Application.OddNumbersToZero" />
-        <item itemvalue="Application.MultiplicationTable" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +137,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675272632259</updated>
-      <workItem from="1675272634293" duration="84104000" />
+      <workItem from="1675272634293" duration="87523000" />
     </task>
     <servers />
   </component>
