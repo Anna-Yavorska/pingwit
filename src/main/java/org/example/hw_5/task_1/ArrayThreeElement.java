@@ -3,6 +3,7 @@ package org.example.hw_5.task_1;
 import java.util.Arrays;
 import java.util.Scanner;
 
+// Красивое решение
 public class ArrayThreeElement {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

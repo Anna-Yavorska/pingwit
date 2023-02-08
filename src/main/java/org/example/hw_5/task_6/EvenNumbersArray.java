@@ -2,6 +2,7 @@ package org.example.hw_5.task_6;
 
 import java.util.Arrays;
 
+// Все супер
 public class EvenNumbersArray {
     public static void main(String[] args) {
         int[] number = new int[]{1, 7, 8, 9, 6, 5, 2, 4, 3};

@@ -9,7 +9,7 @@ public class LongestSequence {
         int startOne = 0;
         int startZero = 0;
 
-        int[] number = new int[]{0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0};
+        int[] number = new int[]{0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0};
 
         for (int i = 0; i < number.length; i++) {
 

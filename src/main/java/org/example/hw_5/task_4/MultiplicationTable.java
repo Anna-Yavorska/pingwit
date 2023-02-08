@@ -1,5 +1,6 @@
 package org.example.hw_5.task_4;
 
+//Все хорошо
 public class MultiplicationTable {
     public static void main(String[] args) {
         int tableSize = 10;

@@ -2,6 +2,7 @@ package org.example.hw_5.task_5;
 
 import java.util.Arrays;
 
+// можно было чтуточку проще решить) Но твое решение работает, а это самое главное, поэтому зачтено
 public class ArrayInversion {
     public static void main(String[] args) {
         int[] array = new int[]{0, 1, 2, 3, 4};
