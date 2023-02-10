@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb078b7c-f893-4490-ac78-33804eb9f8e3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_6/LOL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_6/task_1/TestResult" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_6/task_2/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_6/task_3/ArrayOfHuman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_6/task_4/StaticResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_5/task_5/ArrayInversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_5/task_5/ArrayInversion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +50,7 @@
     "settings.editor.selected.configurable": "preferences.sourceCode"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ArrayInversion">
+  <component name="RunManager" selected="Application.LOL">
     <configuration name="ArrayInversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.hw_5.task_5.ArrayInversion" />
       <module name="java-home" />
@@ -60,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayThreeElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_5.task_1.ArrayThreeElement" />
+    <configuration name="ArrayOfHuman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_6.task_3.ArrayOfHuman" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_5.task_1.*" />
+          <option name="PATTERN" value="org.example.hw_6.task_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Average" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_5.task_2.Average" />
+    <configuration name="Human" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_6.task_2.Human" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_5.task_2.*" />
+          <option name="PATTERN" value="org.example.hw_6.task_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_5.task_7.BubbleSort" />
+    <configuration name="LOL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_6.LOL" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_5.task_7.*" />
+          <option name="PATTERN" value="org.example.hw_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OddNumbersToZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_5.task_3.OddNumbersToZero" />
+    <configuration name="StaticResult" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_6.task_4.StaticResult" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_5.task_3.*" />
+          <option name="PATTERN" value="org.example.hw_6.task_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,18 +118,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ArrayInversion" />
-      <item itemvalue="Application.ArrayThreeElement" />
-      <item itemvalue="Application.Average" />
-      <item itemvalue="Application.BubbleSort" />
-      <item itemvalue="Application.OddNumbersToZero" />
+      <item itemvalue="Application.ArrayOfHuman" />
+      <item itemvalue="Application.Human" />
+      <item itemvalue="Application.LOL" />
+      <item itemvalue="Application.StaticResult" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LOL" />
+        <item itemvalue="Application.ArrayOfHuman" />
+        <item itemvalue="Application.StaticResult" />
+        <item itemvalue="Application.Human" />
         <item itemvalue="Application.ArrayInversion" />
-        <item itemvalue="Application.ArrayThreeElement" />
-        <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.Average" />
-        <item itemvalue="Application.OddNumbersToZero" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +141,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675272632259</updated>
-      <workItem from="1675272634293" duration="87523000" />
+      <workItem from="1675272634293" duration="95588000" />
     </task>
     <servers />
   </component>
