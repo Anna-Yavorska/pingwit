@@ -12,6 +12,7 @@ public class ArrayHouse {
 
         House[] houses = new House[]{houseLilia, houseViktoria, houseTolik, houseDavid, houseGrandParents};
 
+        // Давай плиз сделаем методы класса HouseService нестатическими и будем вызывать их на ОБЪЕКТЕ типа HouseService
         int quantityResidents = quantityResidentsOfBuilding(houses);
         System.out.println(quantityResidents);
         System.out.println();

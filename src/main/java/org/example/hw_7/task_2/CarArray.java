@@ -2,6 +2,7 @@ package org.example.hw_7.task_2;
 
 import static org.example.hw_7.task_2.AudiService.openAudiDoors;
 
+// Отлично!
 public class CarArray {
     public static void main(String[] args) {
 
@@ -13,6 +14,8 @@ public class CarArray {
 
         Car[] cars = new Car[]{audiOne, mazda, audiTwo, zaporozhets, audiThree};
 
+        // Уточню условие: я хотел бы, чтобы метод openAudiDoors не был статическим.
+        // То есть вызывать его нужно на ОБЪЕКТЕ типа AudiService
         openAudiDoors(cars);
     }
 }

@@ -13,6 +13,8 @@ public class House {
         this.isHeatingOn = isHeatingOn;
     }
 
+    // Как правило, в программах геттеры и сеттеры задаются для всех private полей, поэтому плиз добавь те,
+    // которых не хватает (если не совсем понятен запрос, можем на занятии обсудить)
     public String getHouseType() {
         return houseType;
     }

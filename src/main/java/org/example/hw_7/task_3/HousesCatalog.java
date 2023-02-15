@@ -2,6 +2,7 @@ package org.example.hw_7.task_3;
 
 import java.util.Arrays;
 
+// Замечаний нет
 public class HousesCatalog {
     private String city;
     private String district;

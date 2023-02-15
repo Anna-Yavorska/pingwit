@@ -10,7 +10,8 @@ public class MultiplicationOfEvenNumbers {
         for (int i = 0; i < sourceArray.length; i++) {
             if (sourceArray[i] % 2 != 0) {
                 resultArray[i] = sourceArray[i];
-            } else if (sourceArray[i] % 2 == 0) {
+            } else if (sourceArray[i] % 2 == 0) {   // тут можно было бы даже не писать if(...),
+                // достаточно было бы просто else и все отработало бы хорошо. исправлять не нужно
                 resultArray[i] = (sourceArray[i] * 5);
             }
         }
