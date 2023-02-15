@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb078b7c-f893-4490-ac78-33804eb9f8e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_6/LOL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_6/task_1/TestResult" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_6/task_2/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_6/task_3/ArrayOfHuman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_6/task_4/StaticResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_7/task_1/MultiplicationOfEvenNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_7/task_2/AudiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_7/task_2/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_7/task_2/CarArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_7/task_3/ArrayHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_7/task_3/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_7/task_3/HouseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_7/task_3/HousesCatalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_7/task_4/Harvest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_7/task_4/HarvestStatistic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_7/task_4/HarvestStatisticMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_7/task_4/HarvestStatisticService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,13 +57,13 @@
     "settings.editor.selected.configurable": "preferences.sourceCode"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LOL">
-    <configuration name="ArrayInversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_5.task_5.ArrayInversion" />
+  <component name="RunManager" selected="Application.MultiplicationOfEvenNumbers">
+    <configuration name="ArrayHouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_7.task_3.ArrayHouse" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_5.task_5.*" />
+          <option name="PATTERN" value="org.example.hw_7.task_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayOfHuman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_6.task_3.ArrayOfHuman" />
+    <configuration name="CarArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_7.task_2.CarArray" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_6.task_3.*" />
+          <option name="PATTERN" value="org.example.hw_7.task_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Human" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_6.task_2.Human" />
+    <configuration name="HarvestStatisticMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_7.task_4.HarvestStatisticMain" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_6.task_2.*" />
+          <option name="PATTERN" value="org.example.hw_7.task_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticResult" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_6.task_4.StaticResult" />
+    <configuration name="MultiplicationOfEvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_7.task_1.MultiplicationOfEvenNumbers" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_6.task_4.*" />
+          <option name="PATTERN" value="org.example.hw_7.task_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,19 +124,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ArrayInversion" />
-      <item itemvalue="Application.ArrayOfHuman" />
-      <item itemvalue="Application.Human" />
+      <item itemvalue="Application.ArrayHouse" />
+      <item itemvalue="Application.CarArray" />
+      <item itemvalue="Application.HarvestStatisticMain" />
       <item itemvalue="Application.LOL" />
-      <item itemvalue="Application.StaticResult" />
+      <item itemvalue="Application.MultiplicationOfEvenNumbers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiplicationOfEvenNumbers" />
+        <item itemvalue="Application.CarArray" />
+        <item itemvalue="Application.ArrayHouse" />
+        <item itemvalue="Application.HarvestStatisticMain" />
         <item itemvalue="Application.LOL" />
-        <item itemvalue="Application.ArrayOfHuman" />
-        <item itemvalue="Application.StaticResult" />
-        <item itemvalue="Application.Human" />
-        <item itemvalue="Application.ArrayInversion" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +148,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675272632259</updated>
-      <workItem from="1675272634293" duration="95588000" />
+      <workItem from="1675272634293" duration="120340000" />
     </task>
     <servers />
   </component>
