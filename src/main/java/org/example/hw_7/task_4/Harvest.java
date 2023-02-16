@@ -15,15 +15,36 @@ public class Harvest {
         this.weight = weight;
     }
 
-    // Как правило, в программах геттеры и сеттеры задаются для всех private полей, поэтому плиз добавь те,
-    // которых не хватает (если не совсем понятен запрос, можем на занятии обсудить)
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public String getField() {
+        return field;
+    }
+
+    public void setField(String field) {
+        this.field = field;
+    }
 
     public String getPlant() {
         return plant;
     }
 
+    public void setPlant(String plant) {
+        this.plant = plant;
+    }
+
     public BigDecimal getWeight() {
         return weight;
+    }
+
+    public void setWeight(BigDecimal weight) {
+        this.weight = weight;
     }
 
     @Override

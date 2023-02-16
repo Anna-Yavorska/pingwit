@@ -4,6 +4,7 @@ import java.math.BigDecimal;
 
 public class HarvestStatisticMain {
     public static void main(String[] args) {
+        HarvestStatisticService harvestStatisticService = new HarvestStatisticService();
 
         Harvest firstField = new Harvest(1, "Field with vegetables", "Beet", new BigDecimal("400"));
         Harvest secondField = new Harvest(2, "Field with grain", "Wheat", new BigDecimal("6010"));
@@ -14,11 +15,8 @@ public class HarvestStatisticMain {
 
         Harvest[] harvests = new Harvest[]{firstField, secondField, thirdField, fourthField, fifthField, sixField};
 
-        // Давай плиз сделаем методы класса HarvestStatisticService нестатическими и будем вызывать их на ОБЪЕКТЕ типа HarvestStatisticService
-        HarvestStatistic[] harvestStatistics = HarvestStatisticService.calculateStatistic(harvests);
+        HarvestStatistic[] harvestStatistics = harvestStatisticService.calculateStatistic(harvests);
 
-        // На мой взгляд, дальше достаточно было бы просто сделать System.out.println(harvestStatistics),
-        // но я могу чего-то не улавливать. Можешь завтра на занятии объяснить?
         int fieldWithValue = 0;
 
         for (int i = 0; i < harvestStatistics.length; i++) {

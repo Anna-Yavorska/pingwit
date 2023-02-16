@@ -11,14 +11,28 @@ public class Car {
         this.doorsQuantity = doorsQuantity;
     }
 
-    // Как правило, в программах геттеры и сеттеры задаются для всех private полей, поэтому плиз добавь те,
-    // которых не хватает (если не совсем понятен запрос, можем на занятии обсудить)
     public String getBrand() {
         return brand;
     }
 
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
     public int getDoorsQuantity() {
         return doorsQuantity;
+    }
+
+    public void setDoorsQuantity(int doorsQuantity) {
+        this.doorsQuantity = doorsQuantity;
     }
 
     @Override

@@ -3,7 +3,7 @@ package org.example.hw_7.task_4;
 import java.math.BigDecimal;
 
 public class HarvestStatisticService {
-    public static HarvestStatistic[] calculateStatistic(Harvest[] harvests) {
+    public HarvestStatistic[] calculateStatistic(Harvest[] harvests) {
         HarvestStatistic[] harvestStatistics = new HarvestStatistic[harvests.length];
 
         for (int i = 0; i < harvests.length; i++) {
