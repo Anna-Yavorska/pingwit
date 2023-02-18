@@ -5,16 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb078b7c-f893-4490-ac78-33804eb9f8e3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_8/task_1/FamilyStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_8/task_1/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_8/task_1/MeetingSiteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_8/task_1/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_8/task_1/PersonArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_8/task_1/PersonMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_8/task_2/PalindromeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_8/task_2/PalindromeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_8/task_3/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_8/task_3/CarMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_8/task_3/CarType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_8/task_3/CashService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_8/task_3/FerryCrossingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_8/task_4/Warehouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_8/task_4/WarehouseMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_7/task_2/AudiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_7/task_2/AudiService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_7/task_2/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_7/task_2/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_7/task_2/CarArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_7/task_2/CarArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_7/task_3/ArrayHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_7/task_3/ArrayHouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_7/task_3/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_7/task_3/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_7/task_3/HouseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_7/task_3/HouseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_7/task_4/Harvest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_7/task_4/Harvest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_7/task_4/HarvestStatisticMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_7/task_4/HarvestStatisticMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_7/task_4/HarvestStatisticService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_7/task_4/HarvestStatisticService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +30,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -54,26 +61,13 @@
     "settings.editor.selected.configurable": "preferences.sourceCode"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.HarvestStatisticMain">
-    <configuration name="ArrayHouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_7.task_3.ArrayHouse" />
+  <component name="RunManager" selected="Application.WarehouseMain">
+    <configuration name="CarMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_8.task_3.CarMain" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_7.task_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_7.task_2.CarArray" />
-      <module name="java-home" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.hw_7.task_2.*" />
+          <option name="PATTERN" value="org.example.hw_8.task_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LOL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_6.LOL" />
+    <configuration name="PalindromeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_8.task_2.PalindromeMain" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_6.*" />
+          <option name="PATTERN" value="org.example.hw_8.task_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +101,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiplicationOfEvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_7.task_1.MultiplicationOfEvenNumbers" />
+    <configuration name="PersonMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_8.task_1.PersonMain" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_7.task_1.*" />
+          <option name="PATTERN" value="org.example.hw_8.task_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WarehouseMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_8.task_4.WarehouseMain" />
+      <module name="java-home" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.hw_8.task_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,19 +128,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ArrayHouse" />
-      <item itemvalue="Application.CarArray" />
+      <item itemvalue="Application.CarMain" />
       <item itemvalue="Application.HarvestStatisticMain" />
-      <item itemvalue="Application.LOL" />
-      <item itemvalue="Application.MultiplicationOfEvenNumbers" />
+      <item itemvalue="Application.PalindromeMain" />
+      <item itemvalue="Application.PersonMain" />
+      <item itemvalue="Application.WarehouseMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WarehouseMain" />
+        <item itemvalue="Application.CarMain" />
+        <item itemvalue="Application.PalindromeMain" />
+        <item itemvalue="Application.PersonMain" />
         <item itemvalue="Application.HarvestStatisticMain" />
-        <item itemvalue="Application.ArrayHouse" />
-        <item itemvalue="Application.CarArray" />
-        <item itemvalue="Application.MultiplicationOfEvenNumbers" />
-        <item itemvalue="Application.LOL" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +152,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675272632259</updated>
-      <workItem from="1675272634293" duration="122416000" />
+      <workItem from="1675272634293" duration="148191000" />
     </task>
     <servers />
   </component>
