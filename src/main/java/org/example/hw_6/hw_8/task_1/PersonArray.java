@@ -1,4 +1,4 @@
-package org.example.hw_8.task_1;
+package org.example.hw_6.hw_8.task_1;
 
 public class PersonArray {
     Person personIvan = new Person("Ivan", "Petrov", 1975, Gender.MALE, FamilyStatus.SINGE);

@@ -1,4 +1,4 @@
-package org.example.hw_8.task_3;
+package org.example.hw_6.hw_8.task_3;
 
 public class CashService {
     public int calculatePayment(Car[] car) {
@@ -9,13 +9,6 @@ public class CashService {
             if (CarType.TRUCK.equals(car[i].getCarType())) {
                 totalCost += 30;
             }
-            if (CarType.PASSENGER_CAR.equals(car[i].getCarType()) && car[i].getQuantityPassengers() <= 2) {
-                totalCost += 10;
-            }
-            if (CarType.PASSENGER_CAR.equals(car[i].getCarType()) && car[i].getQuantityPassengers() > 2) {
-                totalCost += 15;
-            }
-            /* можно чуток упростить проверку:
             if (CarType.PASSENGER_CAR.equals(car[i].getCarType())) {
                 if (car[i].getQuantityPassengers() <= 2) {
                     totalCost += 10;
@@ -23,7 +16,6 @@ public class CashService {
                     totalCost += 15;
                 }
             }
-            */
         }
         System.out.println("Количество пассажиров на пароме: " + totalQuantityPassengers);
         System.out.print("Общая сумма оплат: ");

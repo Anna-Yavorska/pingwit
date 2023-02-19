@@ -1,4 +1,4 @@
-package org.example.hw_8.task_4;
+package org.example.hw_6.hw_8.task_4;
 
 public class WarehouseMain {
     public static void main(String[] args) {
