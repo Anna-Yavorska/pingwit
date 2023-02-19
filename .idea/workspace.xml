@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb078b7c-f893-4490-ac78-33804eb9f8e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_5/taskWithAsterisk/Finding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_5/taskWithAsterisk/LongestSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_5/taskWithAsterisk/LongestSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_8/task_1/MeetingSiteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_8/task_1/MeetingSiteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_8/task_3/CashService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_8/task_3/CashService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_8/task_1/PersonArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_8/task_1/PersonArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_8/task_1/PersonMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_8/task_1/PersonMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +47,7 @@
     "settings.editor.selected.configurable": "preferences.sourceCode"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LongestSequence">
+  <component name="RunManager" selected="Application.PersonMain">
     <configuration name="CarMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.hw_8.task_3.CarMain" />
       <module name="java-home" />
@@ -125,8 +122,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LongestSequence" />
         <item itemvalue="Application.PersonMain" />
+        <item itemvalue="Application.LongestSequence" />
         <item itemvalue="Application.CarMain" />
         <item itemvalue="Application.WarehouseMain" />
         <item itemvalue="Application.PalindromeMain" />
@@ -141,7 +138,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675272632259</updated>
-      <workItem from="1675272634293" duration="159844000" />
+      <workItem from="1675272634293" duration="160612000" />
     </task>
     <servers />
   </component>

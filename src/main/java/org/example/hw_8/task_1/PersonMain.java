@@ -23,11 +23,10 @@ public class PersonMain {
         meetingSite.provideService(personDavid);
 
         PersonArray personArray = new PersonArray();
-        Person[] people = personArray.getPeople();
+        Person[] person = personArray.getPerson();
 
         System.out.println("Результат работы массива:");
 
-        meetingSite.arrayProvideService(people);
-
+        meetingSite.arrayProvideService(person);
     }
 }

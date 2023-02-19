@@ -10,13 +10,13 @@ public class PersonArray {
     Person personOlga = new Person("Olga", "Orlova", 1970, Gender.FEMALE, FamilyStatus.MARRIED);
     Person personDavid = new Person("David", "Nosov", 1984, Gender.MALE, FamilyStatus.MARRIED);
 
-    Person[] people = new Person[]{personIvan, personMarina, personNick, personVlad, personSonia, personPiotr, personOlga, personDavid};
+    Person[] person = new Person[]{personIvan, personMarina, personNick, personVlad, personSonia, personPiotr, personOlga, personDavid};
 
-    public Person[] getPeople() {
-        return people;
+    public Person[] getPerson() {
+        return person;
     }
 
-    public void setPeople(Person[] people) {
-        this.people = people;
+    public void setPerson(Person[] person) {
+        this.person = person;
     }
 }
