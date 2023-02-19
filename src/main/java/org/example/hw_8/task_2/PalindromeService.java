@@ -2,6 +2,7 @@ package org.example.hw_8.task_2;
 
 import java.util.Arrays;
 
+// отлично
 public class PalindromeService {
     public boolean isPalindrome(String string) {
         String alignment = string.toUpperCase();

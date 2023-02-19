@@ -15,6 +15,15 @@ public class CashService {
             if (CarType.PASSENGER_CAR.equals(car[i].getCarType()) && car[i].getQuantityPassengers() > 2) {
                 totalCost += 15;
             }
+            /* можно чуток упростить проверку:
+            if (CarType.PASSENGER_CAR.equals(car[i].getCarType())) {
+                if (car[i].getQuantityPassengers() <= 2) {
+                    totalCost += 10;
+                } else {
+                    totalCost += 15;
+                }
+            }
+            */
         }
         System.out.println("Количество пассажиров на пароме: " + totalQuantityPassengers);
         System.out.print("Общая сумма оплат: ");
