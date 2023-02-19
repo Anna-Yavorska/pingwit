@@ -7,7 +7,7 @@ public class Finding {
     private int oneOfStart = 0;
     private int anotherStart = 0;
     private int startOfSequence = 0;
-    int lengthAnotherSequence = 0;
+    private int lengthAnotherSequence = 0;
 
     public void find(int[] number) {
 
@@ -31,7 +31,6 @@ public class Finding {
             } else {
                 repetitionsQuantity = 1;
             }
-
         }
         System.out.println("Самая длинная последовательность начинается с  " + startOfSequence + " элемента");
         System.out.println("Количество элементов в самой длинной последовательности: " + longestSequence);
