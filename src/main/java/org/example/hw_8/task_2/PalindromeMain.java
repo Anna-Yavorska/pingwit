@@ -1,4 +1,4 @@
-package org.example.hw_6.hw_8.task_2;
+package org.example.hw_8.task_2;
 
 // Отлично
 public class PalindromeMain {

@@ -1,4 +1,4 @@
-package org.example.hw_6.hw_8.task_3;
+package org.example.hw_8.task_3;
 
 public class FerryCrossingService {
     public boolean isCrossing(Car[] cars) {
