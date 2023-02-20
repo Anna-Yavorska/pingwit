@@ -1,6 +1,7 @@
 package org.example.hw_5.taskWithAsterisk;
 
 public class Finding {
+    // для таких целей поля класса не стоит использовать
     private int lengthOneOfSequence = 1;
     private int repetitionsQuantity = 1;
     private int longestSequence = 0;
@@ -9,7 +10,7 @@ public class Finding {
     private int startOfSequence = 0;
     private int lengthAnotherSequence = 0;
 
-    public void find(int[] number) {
+    public void find(int[] number) { //когда наззываешь метод find(), то я ожидаю, что он будет что-нибудь возвращать, void не подойдет
 
         for (int i = 0; i < number.length - 1; i++) {
             if (number[i] == number[i + 1]) {
