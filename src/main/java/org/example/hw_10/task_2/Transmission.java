@@ -1,6 +1,7 @@
 package org.example.hw_10.task_2;
 
 public class Transmission {
+    // вынесла в константы - отлично!
     private static final int MIN_GEAR = 0;
     private static final int MAX_GEAR = 7;
 

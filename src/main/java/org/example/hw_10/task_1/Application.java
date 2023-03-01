@@ -1,5 +1,6 @@
 package org.example.hw_10.task_1;
 
+// Все хорошо, замечаний нет
 public class Application {
     public static void main(String[] args) {
         User user = new User("Богдан", "Хмельницкий", "Казак");

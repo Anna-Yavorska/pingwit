@@ -1,6 +1,7 @@
 package org.example.hw_10.task_2;
 
 public class Motor {
+    // boolean-поля в таком случае лучше называть: turnedOn, enabled, started
     private boolean state;
 
     public void engineOn() {
