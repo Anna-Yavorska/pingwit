@@ -3,6 +3,7 @@ package org.example.hw_11.task_1;
 import java.util.Scanner;
 
 public class Smartphone extends AbstractPhone {
+    // если не делаешь сеттеры - делай поля final
     private String system;
     private int battery;
     private int quantityCameras;
@@ -44,6 +45,7 @@ public class Smartphone extends AbstractPhone {
         System.out.println("Какую книгу хотите почитать?");
     }
 
+    // супер! за избретательноть ставлю лайк)
     public void showWay() {
         System.out.println("Куда едем?");
         Scanner scanner = new Scanner(System.in);
