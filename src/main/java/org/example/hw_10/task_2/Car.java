@@ -4,11 +4,9 @@ public class Car {
     private static final int SPEED_FACTOR = 20;
     private Motor motor;
     private Transmission transmission;
-    // поле лучше назвать: gasPressed, gasPushed ...
-    private boolean gas;
+    private boolean gasPressed;
     private int speed;
-    // поле лучше назвать: isMoving, isInMotion ...
-    private boolean movement = false;
+    private boolean isMoving = false;
 
     public Car() {
         this.motor = new Motor();
@@ -16,9 +14,9 @@ public class Car {
     }
 
     public void go() {
-        if (motor.isState() && transmission.isFirstGear() && gas) {
+        if (motor.isTurnedOn() && transmission.isFirstGear() && gasPressed) {
             System.out.println("Car is ride");
-            movement = true;
+            isMoving = true;
         } else {
             System.out.println("Car can't ride");
         }
@@ -41,7 +39,7 @@ public class Car {
     }
 
     public void pressGas() {
-        gas = true;
+        gasPressed = true;
         System.out.println("Press gas");
     }
 
@@ -49,7 +47,7 @@ public class Car {
         int gear = transmission.getGear();
         speed = gear * SPEED_FACTOR;
         // можно упростить условие, использую отрицание: if (!movement) {...
-        if (movement == false) {
+        if (!isMoving) {
             System.out.println("Car isn't ride");
         } else {
             System.out.println("Current speed = " + speed);
