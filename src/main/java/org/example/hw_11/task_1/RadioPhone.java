@@ -1,7 +1,7 @@
 package org.example.hw_11.task_1;
 
 public class RadioPhone extends AbstractPhone {
-    private int actionRadius;
+    private final int actionRadius;
 
     public RadioPhone(String type, String model, int actionRadius) {
         super(type, model);

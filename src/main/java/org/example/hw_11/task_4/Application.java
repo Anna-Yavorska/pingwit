@@ -15,7 +15,6 @@ public class Application {
             System.out.println("is blank: " + StringUtils.isBlank(string));
         }
 
-
         String palindrome = "tod dot";
         String reverse = StringUtils.reverse(palindrome);
 

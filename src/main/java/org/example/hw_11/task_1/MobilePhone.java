@@ -1,8 +1,8 @@
 package org.example.hw_11.task_1;
 
 public class MobilePhone extends AbstractPhone {
-    private int quantitySim;
-    private int quantityCameras;
+    private final int quantitySim;
+    private final int quantityCameras;
 
     public MobilePhone(String type, String model, int quantitySim, int quantityCameras) {
         super(type, model);

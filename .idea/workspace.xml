@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb078b7c-f893-4490-ac78-33804eb9f8e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_11/task_1/AbstractPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_11/task_1/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_11/task_1/MobilePhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_11/task_1/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_11/task_1/RadioPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_11/task_1/RotaryPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_11/task_1/Smartphone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_11/task_2/StringMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_11/task_3/StringModification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_11/task_4/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_11/taskWithAsterisk_2/SequenceOfIncreasingNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_10/task_2/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_10/task_2/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_10/task_2/Motor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_10/task_2/Motor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_11/task_1/MobilePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_11/task_1/MobilePhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_11/task_1/RadioPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_11/task_1/RadioPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_11/task_1/Smartphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_11/task_1/Smartphone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_11/task_4/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_11/task_4/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +52,26 @@
     "settings.editor.selected.configurable": "preferences.sourceCode"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.org.example.hw_11.task_1.Application">
-    <configuration name="StringMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_11.task_2.StringMethods" />
+  <component name="RunManager" selected="Application.SequenceOfIncreasingNumbers">
+    <configuration name="IncreasingNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_11.taskWithAsterisk_2.IncreasingNumbers" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_11.task_2.*" />
+          <option name="PATTERN" value="org.example.hw_11.taskWithAsterisk_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SequenceOfIncreasingNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_11.taskWithAsterisk_2.SequenceOfIncreasingNumbers" />
+      <module name="java-home" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.hw_11.taskWithAsterisk_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,19 +85,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.hw_11.task_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.example.hw_10.task_1.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_10.task_1.Application" />
-      <module name="java-home" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.hw_10.task_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,19 +119,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StringMethods" />
+      <item itemvalue="Application.IncreasingNumbers" />
+      <item itemvalue="Application.SequenceOfIncreasingNumbers" />
       <item itemvalue="Application.StringModification" />
-      <item itemvalue="Application.org.example.hw_10.task_1.Application" />
       <item itemvalue="Application.org.example.hw_11.task_1.Application" />
       <item itemvalue="Application.org.example.hw_11.task_4.Application" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SequenceOfIncreasingNumbers" />
+        <item itemvalue="Application.IncreasingNumbers" />
         <item itemvalue="Application.org.example.hw_11.task_1.Application" />
         <item itemvalue="Application.org.example.hw_11.task_4.Application" />
         <item itemvalue="Application.StringModification" />
-        <item itemvalue="Application.StringMethods" />
-        <item itemvalue="Application.org.example.hw_10.task_1.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +143,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675272632259</updated>
-      <workItem from="1675272634293" duration="214574000" />
+      <workItem from="1675272634293" duration="219987000" />
     </task>
     <servers />
   </component>
