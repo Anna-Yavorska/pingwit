@@ -3,19 +3,21 @@ package org.example.hw_11.taskWithAsterisk_2;
 import java.util.ArrayList;
 import java.util.List;
 
-// Очень хорошо.
 public class SequenceOfIncreasingNumbers {
     public static void main(String[] args) {
-        List<Integer> sequence = new ArrayList<>(List.of(1, 3, 6));
-        Integer firstNumber = 1;
+        List<Integer> sequence = new ArrayList<>(List.of(2, 4));
+        Integer lastNumber = 6;
 
-        for (int i = 0; i < sequence.size(); i++) {
-            boolean suitableNumber = sequence.get(i).equals(firstNumber);
+        while (sequence.size() < lastNumber) {
+            sequence.add(lastNumber);
+        }
 
+        for (int i = sequence.size() - 1; i >= 0; i--) {
+            boolean suitableNumber = sequence.get(i).equals(lastNumber);
             if (!suitableNumber) {
-                sequence.add(i, firstNumber);
+                sequence.set(i, lastNumber);
             }
-            firstNumber++;
+            lastNumber--;
         }
         System.out.println(sequence);
     }

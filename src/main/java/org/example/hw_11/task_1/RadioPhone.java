@@ -12,16 +12,6 @@ public class RadioPhone extends AbstractPhone {
         return actionRadius;
     }
 
-    @Override
-    public void makeCall() {
-        System.out.println("Hello");
-    }
-
-    @Override
-    public void receiveCall() {
-        System.out.println("Где же эта трубка?");
-    }
-
     public void safeNumber() {
         System.out.println("Контакт сохранен в телефонную книгу");
     }

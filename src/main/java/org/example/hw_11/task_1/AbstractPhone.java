@@ -4,7 +4,7 @@ public abstract class AbstractPhone implements Phone {
     private String type;
     private String model;
 
-    public AbstractPhone(String type, String model) {
+    protected AbstractPhone(String type, String model) {
         this.type = type;
         this.model = model;
     }
@@ -23,6 +23,16 @@ public abstract class AbstractPhone implements Phone {
 
     public void setModel(String model) {
         this.model = model;
+    }
+
+    @Override
+    public void makeCall() {
+        System.out.println("Доброго времени суток!");
+    }
+
+    @Override
+    public void receiveCall() {
+        System.out.println("Алло");
     }
 
     public abstract void adjustRingerVolume();
