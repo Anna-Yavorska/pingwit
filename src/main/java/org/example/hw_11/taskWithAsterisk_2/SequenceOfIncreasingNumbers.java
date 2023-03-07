@@ -3,6 +3,7 @@ package org.example.hw_11.taskWithAsterisk_2;
 import java.util.ArrayList;
 import java.util.List;
 
+// Очень хорошо.
 public class SequenceOfIncreasingNumbers {
     public static void main(String[] args) {
         List<Integer> sequence = new ArrayList<>(List.of(1, 3, 6));
