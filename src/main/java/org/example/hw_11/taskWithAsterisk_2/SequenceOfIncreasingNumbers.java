@@ -8,6 +8,7 @@ public class SequenceOfIncreasingNumbers {
         List<Integer> sequence = new ArrayList<>(List.of(2, 4));
         Integer lastNumber = 6;
 
+        // я не очень понял зачем ты заполняешь одинаковыми элементами. Я думаю добавлять концовку лучше после второго цикла + тогда будет меньше итераций
         while (sequence.size() < lastNumber) {
             sequence.add(lastNumber);
         }
