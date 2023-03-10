@@ -6,6 +6,6 @@ public class CheckPalindromeUsingRecursion {
 
         String word = "tod dot";
         boolean result = palindrome.isPalindrome(word);
-        System.out.println(result);
+        System.out.println(result ? "Yes" : "No");
     }
 }

@@ -6,19 +6,19 @@ import java.util.List;
 public class SequenceOfIncreasingNumbers {
     public static void main(String[] args) {
         List<Integer> sequence = new ArrayList<>(List.of(2, 4));
-        Integer lastNumber = 6;
+        Integer firstNumber = 1;
+        int lastNumber = 6;
 
-        // я не очень понял зачем ты заполняешь одинаковыми элементами. Я думаю добавлять концовку лучше после второго цикла + тогда будет меньше итераций
-        while (sequence.size() < lastNumber) {
-            sequence.add(lastNumber);
-        }
-
-        for (int i = sequence.size() - 1; i >= 0; i--) {
-            boolean suitableNumber = sequence.get(i).equals(lastNumber);
-            if (!suitableNumber) {
-                sequence.set(i, lastNumber);
+        for (int i = 0; i < sequence.size(); i++) {
+            boolean equals = sequence.get(i).equals(firstNumber);
+            if (!equals) {
+                sequence.add(i, firstNumber);
             }
-            lastNumber--;
+            firstNumber++;
+        }
+        while (sequence.size() < lastNumber) {
+            sequence.add(firstNumber);
+            firstNumber++;
         }
         System.out.println(sequence);
     }
