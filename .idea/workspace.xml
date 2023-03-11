@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb078b7c-f893-4490-ac78-33804eb9f8e3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_13/task_1/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_13/task_2/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_13/task_2/GameConsole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_13/task_2/Router.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_13/task_3/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_13/task_3/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_13/task_3/PersonReverser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_13/task_3/PersonServiceByLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_13/task_3/PersonServiceByReverse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_11/taskWithAsterisk_2/SequenceOfIncreasingNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_11/taskWithAsterisk_2/SequenceOfIncreasingNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_12/task_3/CheckPalindromeUsingRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_12/task_3/CheckPalindromeUsingRecursion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "extract.method.default.visibility": "private",
     "last_opened_file_path": "C:/Users/aniay/IdeaProjects/java-home",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -49,13 +57,13 @@
     "settings.editor.selected.configurable": "preferences.sourceCode"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SequenceOfIncreasingNumbers">
-    <configuration name="Alll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_12.Alll" />
+  <component name="RunManager" selected="Application.org.example.hw_13.task_2.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_13.task_1.Application" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_12.*" />
+          <option name="PATTERN" value="org.example.hw_13.task_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Star" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_12.Star" />
+    <configuration name="org.example.hw_13.task_2.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_13.task_2.Application" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_12.*" />
+          <option name="PATTERN" value="org.example.hw_13.task_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.hw_12.task_2.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_12.task_2.Application" />
+    <configuration name="org.example.hw_13.task_3.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_13.task_3.Application" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_12.task_2.*" />
+          <option name="PATTERN" value="org.example.hw_13.task_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,19 +124,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Alll" />
+      <item itemvalue="Application.Application" />
+      <item itemvalue="Application.org.example.hw_13.task_2.Application" />
+      <item itemvalue="Application.org.example.hw_13.task_3.Application" />
       <item itemvalue="Application.CheckPalindromeUsingRecursion" />
-      <item itemvalue="Application.Star" />
-      <item itemvalue="Application.org.example.hw_12.task_2.Application" />
       <item itemvalue="Application.SequenceOfIncreasingNumbers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.hw_13.task_2.Application" />
+        <item itemvalue="Application.org.example.hw_13.task_3.Application" />
+        <item itemvalue="Application.Application" />
         <item itemvalue="Application.SequenceOfIncreasingNumbers" />
         <item itemvalue="Application.CheckPalindromeUsingRecursion" />
-        <item itemvalue="Application.Star" />
-        <item itemvalue="Application.Alll" />
-        <item itemvalue="Application.org.example.hw_12.task_2.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -142,6 +150,7 @@
       <updated>1675272632259</updated>
       <workItem from="1675272634293" duration="229122000" />
       <workItem from="1678231884403" duration="14029000" />
+      <workItem from="1678430779110" duration="15595000" />
     </task>
     <servers />
   </component>
