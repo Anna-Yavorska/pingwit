@@ -1,5 +1,6 @@
 package org.example.hw_13.task_1;
 
+// все хорошо
 public class Application {
     public static void main(String[] args) {
         int[] numbers = new int[]{3, 7, 9, 21, 14, 15};

@@ -14,6 +14,7 @@ public class Application {
         System.out.println(personByReverse);
 
         boolean equals = personByLoop.equals(personByReverse);
+        // тернарный оператор очень к месту, молодец
         System.out.println(equals ? "Результат работы обоих методов одинаков" : "Результаты отличаются");
     }
 }

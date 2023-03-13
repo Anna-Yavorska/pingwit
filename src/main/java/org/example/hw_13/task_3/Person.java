@@ -2,6 +2,7 @@ package org.example.hw_13.task_3;
 
 import java.util.Objects;
 
+// вот класс Person вполне можно было бы трансформировать в record
 public class Person {
     private String name;
     private String surname;

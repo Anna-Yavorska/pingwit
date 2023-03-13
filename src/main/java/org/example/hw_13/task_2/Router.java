@@ -4,6 +4,8 @@ import org.apache.commons.lang3.RandomUtils;
 
 import java.io.IOException;
 
+// идея постоянно предлагает сконвертировать такие классы в Record - этого делать не нужно.
+// record предназначены для передачи данных
 public record Router(String name, String networkName) {
     public String connectWiFi(String deviceName) {
         String result = "";
