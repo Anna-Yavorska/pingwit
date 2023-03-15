@@ -5,9 +5,11 @@ import org.apache.commons.lang3.RandomUtils;
 public class DatabaseConnectorImpl implements DatabaseConnector {
 
     @Override
-    public void connectToDatabase(String dataBaseName) throws Connecting {
+    public void connectToDatabase(String dataBaseName) throws ConnectingException {
         if (RandomUtils.nextBoolean()) {
-            throw new Connecting("Ошибка подключения к " + dataBaseName);
+            System.out.println("Вы подключились к " + dataBaseName);
+        } else {
+            throw new ConnectingException("Ошибка подключения к " + dataBaseName);
         }
     }
 }

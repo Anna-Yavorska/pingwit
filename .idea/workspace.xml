@@ -5,26 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb078b7c-f893-4490-ac78-33804eb9f8e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_14/task_1/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_14/task_1/Connecting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_14/task_1/DatabaseConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_14/task_1/DatabaseConnectorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_14/task_2/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_14/task_2/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_14/task_2/PrinterOperatorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_14/task_3/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_14/task_4/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_14/task_4/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_14/task_4/PersonParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_11/taskWithAsterisk_2/SequenceOfIncreasingNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_11/taskWithAsterisk_2/SequenceOfIncreasingNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_13/task_2/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_13/task_2/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_13/task_2/GameConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_13/task_2/GameConsole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_13/task_2/Router.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_13/task_2/Router.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_13/task_3/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_13/task_3/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_13/task_3/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_13/task_3/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_13/task_3/PersonServiceByLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_13/task_3/LoopPersonReverser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_13/task_3/PersonServiceByReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_13/task_3/StringUtilsPersonReverser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_14/task_1/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_14/task_1/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_14/task_1/Connecting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_14/task_1/ConnectingException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_14/task_1/DatabaseConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_14/task_1/DatabaseConnector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_14/task_1/DatabaseConnectorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_14/task_1/DatabaseConnectorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_14/task_2/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_14/task_2/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_14/task_4/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_14/task_4/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_14/task_4/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_14/task_4/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_14/task_4/PersonParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_14/task_4/PersonParser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +56,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SequenceOfIncreasingNumbers">
+  <component name="RunManager" selected="Application.org.example.hw_14.task_4.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.hw_14.task_3.Application" />
       <module name="java-home" />
@@ -142,11 +131,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SequenceOfIncreasingNumbers" />
         <item itemvalue="Application.org.example.hw_14.task_4.Application" />
-        <item itemvalue="Application.Application" />
         <item itemvalue="Application.org.example.hw_14.task_2.Application" />
         <item itemvalue="Application.org.example.hw_14.task_1.Application" />
+        <item itemvalue="Application.SequenceOfIncreasingNumbers" />
+        <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +150,7 @@
       <workItem from="1675272634293" duration="229122000" />
       <workItem from="1678231884403" duration="14029000" />
       <workItem from="1678430779110" duration="32413000" />
-      <workItem from="1678826538746" duration="12815000" />
+      <workItem from="1678826538746" duration="16619000" />
     </task>
     <servers />
   </component>

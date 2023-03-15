@@ -12,21 +12,6 @@ public class Printer {
 
     public void print(String document) {
         connectToPrinter();
-        if (isOn) {
-            System.out.println(document);
-            System.out.println("Документ распечатан");
-        } else {
-            System.out.println("Забыли включить принтер");
-            System.out.println("Идёт процесс автоматического включения...");
-            turnOn();
-            // в данном случае нет необходимости в рекурсивном вызове, лучше будет, если System.out.println("Документ распечатан")
-            // перенести за if() else() см коммент ниже
-            print(document);
-        }
-    }
-
-    /*public void print(String document) {
-        connectToPrinter();
         if (!isOn) {
             System.out.println("Забыли включить принтер");
             System.out.println("Идёт процесс автоматического включения...");
@@ -34,8 +19,7 @@ public class Printer {
         }
         System.out.println(document);
         System.out.println("Документ распечатан");
-    }*/
-
+    }
 
     public void turnOff() {
         System.out.println("Принтер выключен");

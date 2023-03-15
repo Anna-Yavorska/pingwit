@@ -1,5 +1,6 @@
 package org.example.hw_14.task_4;
 
+import java.time.DateTimeException;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -9,34 +10,27 @@ public class PersonParser {
         String[] strings = findPerson(string);
         Person[] people = new Person[strings.length];
         int index = 0;
-        try {
-            for (int i = 0; i < strings.length; i++) {
-                Person person = new Person();
-                String[] personVariables = strings[i].split(", ");
 
-                String firstVariable = personVariables[index];
-                person.setName(firstVariable);
+        for (int i = 0; i < strings.length; i++) {
+            Person person;
+            String[] personVariables = strings[i].split(", ");
 
-                String secondVariable = personVariables[index + 1];
-                person.setSurname(secondVariable);
+            String firstVariable = personVariables[index];
 
+            String secondVariable = personVariables[index + 1];
+            try {
                 String s = personVariables[index + 2];
                 int dayNumber = Integer.parseInt(s);
                 DayOfWeek dayOfWeek = DayOfWeek.of(dayNumber);
-                person.setDayOfWeek(dayOfWeek);
 
                 DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-dd-MM");
                 String date = personVariables[index + 3];
                 LocalDate localDate = LocalDate.parse(date, dateTimeFormatter);
-                person.setDateOfBirth(localDate);
+                person = new Person(firstVariable, secondVariable, localDate, dayOfWeek);
                 people[i] = person;
+            } catch (DateTimeException e) {
+                System.out.println(e.getMessage());
             }
-            // здесь ты оборачиваешь весь цикл в try catch и когда вылетает ошибка - дальше цикл не выполняется,
-            // и результате у нас все люди после Ермолаева не парсятся. а я хотел бы, чтобы не распарсился только ермолаев
-            // для этого нужно меньший фрагмент кода оборачивать в try catch. И еще - там вылетает DateTimeException,
-            // вот ее и лови плиз.
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
         }
         return people;
     }
