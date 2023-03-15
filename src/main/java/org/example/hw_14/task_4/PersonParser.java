@@ -31,6 +31,10 @@ public class PersonParser {
                 person.setDateOfBirth(localDate);
                 people[i] = person;
             }
+            // здесь ты оборачиваешь весь цикл в try catch и когда вылетает ошибка - дальше цикл не выполняется,
+            // и результате у нас все люди после Ермолаева не парсятся. а я хотел бы, чтобы не распарсился только ермолаев
+            // для этого нужно меньший фрагмент кода оборачивать в try catch. И еще - там вылетает DateTimeException,
+            // вот ее и лови плиз.
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }

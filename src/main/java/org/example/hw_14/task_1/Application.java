@@ -6,6 +6,8 @@ public class Application {
         String dataBaseName = "MySQL";
         try {
             databaseConnector.connectToDatabase(dataBaseName);
+            // печать сообщения "Вы подключились к " + dataBaseName я бы рекомендовал перенести в коннектор
+            // если там ошибка  - выводится сообщение о ней, если упех - выводится сообщение об успехе
             System.out.println("Вы подключились к " + dataBaseName);
             System.out.println("Какие данные Вас интересуют?");
         } catch (Connecting e) {

@@ -3,6 +3,7 @@ package org.example.hw_14.task_4;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 
+// плиз сделай все поля final
 public class Person {
     private String name;
     private String surname;

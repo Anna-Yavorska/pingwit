@@ -4,6 +4,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
+// здесь все отлично
 public class Application {
     public static void main(String[] args) {
         String firstDate = "2023-17-01";
