@@ -5,8 +5,8 @@ public class Application {
         Person firstPerson = new Person("Lida", "Mazur");
         Person secondPerson = new Person("Lida", "Mazur");
 
-        PersonServiceByLoop byLoop = new PersonServiceByLoop();
-        PersonServiceByReverse byReverse = new PersonServiceByReverse();
+        LoopPersonReverser byLoop = new LoopPersonReverser();
+        StringUtilsPersonReverser byReverse = new StringUtilsPersonReverser();
 
         Person personByLoop = byLoop.reversePerson(firstPerson);
         Person personByReverse = byReverse.reversePerson(secondPerson);
@@ -14,7 +14,6 @@ public class Application {
         System.out.println(personByReverse);
 
         boolean equals = personByLoop.equals(personByReverse);
-        // тернарный оператор очень к месту, молодец
         System.out.println(equals ? "Результат работы обоих методов одинаков" : "Результаты отличаются");
     }
 }

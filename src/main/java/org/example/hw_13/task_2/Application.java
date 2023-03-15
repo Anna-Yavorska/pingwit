@@ -5,7 +5,7 @@ public class Application {
         Router router = new Router("TP-LINK", "FunBox");
         GameConsole gameConsole = new GameConsole("SONY", "PlayStation-5");
 
-        String result = router.connectWiFi(gameConsole.NAME());
+        String result = router.connectWiFi(gameConsole.getName());
         System.out.println(result);
     }
 }

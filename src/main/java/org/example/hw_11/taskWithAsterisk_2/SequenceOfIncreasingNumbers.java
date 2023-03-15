@@ -5,21 +5,29 @@ import java.util.List;
 
 public class SequenceOfIncreasingNumbers {
     public static void main(String[] args) {
-        List<Integer> sequence = new ArrayList<>(List.of(2, 4));
-        Integer firstNumber = 1;
-        int lastNumber = 6;
+        List<Integer> sequence = new ArrayList<>(List.of(4));
+        checkEachNumber(sequence);
+        List<Integer> sequenceLength = checkListLength(sequence);
+        System.out.println(sequenceLength);
+    }
 
-        for (int i = 0; i < sequence.size(); i++) {
-            boolean equals = sequence.get(i).equals(firstNumber);
+    private static void checkEachNumber(List<Integer> list) {
+        Integer firstNumber = 1;
+        for (int i = 0; i < list.size(); i++) {
+            boolean equals = list.get(i).equals(firstNumber);
             if (!equals) {
-                sequence.add(i, firstNumber);
+                list.add(i, firstNumber);
             }
             firstNumber++;
         }
-        while (sequence.size() < lastNumber) {
-            sequence.add(firstNumber);
-            firstNumber++;
+    }
+
+    private static List<Integer> checkListLength(List<Integer> list) {
+        int lastNumber = 6;
+        while (list.size() < lastNumber) {
+            Integer number = list.get(list.size() - 1);
+            list.add(++number);
         }
-        System.out.println(sequence);
+        return list;
     }
 }

@@ -1,16 +1,15 @@
-package org.example.hw_13.task_3;
+package org.example.hw_14.task_4;
 
-import java.util.Objects;
+import java.time.DayOfWeek;
+import java.time.LocalDate;
+
 public class Person {
     private String name;
     private String surname;
+    private LocalDate dateOfBirth;
+    private DayOfWeek dayOfWeek;
 
     public Person() {
-    }
-
-    public Person(String name, String surname) {
-        this.name = name;
-        this.surname = surname;
     }
 
     public String getName() {
@@ -29,17 +28,20 @@ public class Person {
         this.surname = surname;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Person person = (Person) o;
-        return Objects.equals(name, person.name) && Objects.equals(surname, person.surname);
+    public LocalDate getDateOfBirth() {
+        return dateOfBirth;
     }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(name, surname);
+    public void setDateOfBirth(LocalDate dateOfBirth) {
+        this.dateOfBirth = dateOfBirth;
+    }
+
+    public DayOfWeek getDayOfWeek() {
+        return dayOfWeek;
+    }
+
+    public void setDayOfWeek(DayOfWeek dayOfWeek) {
+        this.dayOfWeek = dayOfWeek;
     }
 
     @Override
@@ -47,6 +49,8 @@ public class Person {
         return "Person{" +
                 "name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
+                ", dateOfBirth=" + dateOfBirth +
+                ", dayOfWeek=" + dayOfWeek +
                 '}';
     }
 }
