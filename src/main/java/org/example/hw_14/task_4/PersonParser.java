@@ -15,23 +15,19 @@ public class PersonParser {
             Person person;
             String[] personVariables = strings[i].split(", ");
 
-            // можно назвать эту переменную name, тк ты исходишь из предположения, что там именно имя находится
-            String firstVariable = personVariables[index];
+            String name = personVariables[index];
 
-            // с этой переменной аналогично
-            String secondVariable = personVariables[index + 1];
+            String surname = personVariables[index + 1];
             try {
-                // эту можно назвать например dayString
-                String s = personVariables[index + 2];
-                int dayNumber = Integer.parseInt(s);
+                String dayString = personVariables[index + 2];
+                int dayNumber = Integer.parseInt(dayString);
                 DayOfWeek dayOfWeek = DayOfWeek.of(dayNumber);
 
                 DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-dd-MM");
-                // dateString
-                String date = personVariables[index + 3];
-                // dateOfBirth
-                LocalDate localDate = LocalDate.parse(date, dateTimeFormatter);
-                person = new Person(firstVariable, secondVariable, localDate, dayOfWeek);
+                String dateString = personVariables[index + 3];
+                LocalDate dateOfBirth = LocalDate.parse(dateString, dateTimeFormatter);
+
+                person = new Person(name, surname, dateOfBirth, dayOfWeek);
                 people[i] = person;
             } catch (DateTimeException e) {
                 System.out.println(e.getMessage());
@@ -40,8 +36,7 @@ public class PersonParser {
         return people;
     }
 
-    // этот метод не нужно делать static
-    private static String[] findPerson(String string) {
+    private String[] findPerson(String string) {
         return string.split("; ");
     }
 }
