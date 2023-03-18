@@ -6,18 +6,22 @@ import java.util.List;
 public class SequenceOfIncreasingNumbers {
     public static void main(String[] args) {
         List<Integer> sequence = new ArrayList<>(List.of(4));
-        startSequenceFrom(sequence, 1);
+        startSequenceFrom(sequence, 5);
         increaseQuantityElements(sequence, 6);
         System.out.println(sequence);
     }
 
     private static void startSequenceFrom(List<Integer> list, Integer firstNumber) {
-        for (int i = 0; i < list.size(); i++) {
-            boolean equals = list.get(i).equals(firstNumber);
-            if (!equals) {
-                list.add(i, firstNumber);
+        if (list.get(0) > firstNumber) {
+            for (int i = 0; i < list.size(); i++) {
+                boolean equals = list.get(i).equals(firstNumber);
+                if (!equals) {
+                    list.add(i, firstNumber);
+                }
+                firstNumber++;
             }
-            firstNumber++;
+        } else {
+            System.out.println("The sequence has such number");
         }
     }
 
