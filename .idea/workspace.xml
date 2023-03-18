@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb078b7c-f893-4490-ac78-33804eb9f8e3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_14/task_4/PersonParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_14/task_4/PersonParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_15/task_1/StringLengthsSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_15/task_2/OddEvenNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_15/task_3/DivisionMultiplicationNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_15/task_4/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_15/task_4/package_1/package_2/file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_11/taskWithAsterisk_2/SequenceOfIncreasingNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_11/taskWithAsterisk_2/SequenceOfIncreasingNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +54,39 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.org.example.hw_14.task_4.Application">
+  <component name="RunManager" selected="Application.SequenceOfIncreasingNumbers">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_14.task_3.Application" />
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_15.task_4.Application" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_14.task_3.*" />
+          <option name="PATTERN" value="org.example.hw_15.task_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DivisionMultiplicationNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_15.task_3.DivisionMultiplicationNumbers" />
+      <module name="java-home" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.hw_15.task_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OddEvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_15.task_2.OddEvenNumbers" />
+      <module name="java-home" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.hw_15.task_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,38 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.hw_14.task_1.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_14.task_1.Application" />
+    <configuration name="StringLengthsSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_15.task_1.StringLengthsSum" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_14.task_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.example.hw_14.task_2.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_14.task_2.Application" />
-      <module name="java-home" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.hw_14.task_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.example.hw_14.task_4.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_14.task_4.Application" />
-      <module name="java-home" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.hw_14.task_4.*" />
+          <option name="PATTERN" value="org.example.hw_15.task_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,19 +121,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.org.example.hw_14.task_4.Application" />
-      <item itemvalue="Application.Application" />
-      <item itemvalue="Application.org.example.hw_14.task_1.Application" />
-      <item itemvalue="Application.org.example.hw_14.task_2.Application" />
       <item itemvalue="Application.SequenceOfIncreasingNumbers" />
+      <item itemvalue="Application.DivisionMultiplicationNumbers" />
+      <item itemvalue="Application.OddEvenNumbers" />
+      <item itemvalue="Application.StringLengthsSum" />
+      <item itemvalue="Application.Application" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.example.hw_14.task_4.Application" />
-        <item itemvalue="Application.org.example.hw_14.task_2.Application" />
-        <item itemvalue="Application.org.example.hw_14.task_1.Application" />
         <item itemvalue="Application.SequenceOfIncreasingNumbers" />
         <item itemvalue="Application.Application" />
+        <item itemvalue="Application.DivisionMultiplicationNumbers" />
+        <item itemvalue="Application.OddEvenNumbers" />
+        <item itemvalue="Application.StringLengthsSum" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +148,8 @@
       <workItem from="1675272634293" duration="229122000" />
       <workItem from="1678231884403" duration="14029000" />
       <workItem from="1678430779110" duration="32413000" />
-      <workItem from="1678826538746" duration="17878000" />
+      <workItem from="1678826538746" duration="27642000" />
+      <workItem from="1679167492672" duration="2615000" />
     </task>
     <servers />
   </component>
