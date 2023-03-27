@@ -17,7 +17,7 @@ public class CopyWithFile {
             }
             writer.flush();
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            System.out.println(e.getMessage());
         }
     }
 }

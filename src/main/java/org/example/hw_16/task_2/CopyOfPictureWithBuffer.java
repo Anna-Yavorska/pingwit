@@ -15,7 +15,7 @@ public class CopyOfPictureWithBuffer {
             bufferedOutputStream.write(bytes);
             bufferedOutputStream.flush();
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            System.out.println(e.getMessage());
         }
     }
 }

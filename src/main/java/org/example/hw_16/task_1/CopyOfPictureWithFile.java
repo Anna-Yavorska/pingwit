@@ -13,7 +13,7 @@ public class CopyOfPictureWithFile {
             outputStream.write(bytes);
             outputStream.flush();
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            System.out.println(e.getMessage());
         }
     }
 }

@@ -5,13 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb078b7c-f893-4490-ac78-33804eb9f8e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_16/files/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_16/files/queen.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_16/task_1/CopyOfPictureWithFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_16/task_2/CopyOfPictureWithBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_16/task_3/CopyWithFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_16/task_4/CopyWithBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_17/task_1/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_17/task_1/Motorcycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_17/task_1/motorcycle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_17/task_2/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_17/task_2/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_17/task_2/tracks/track_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_17/task_2/tracks/track_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_17/task_2/tracks/track_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_17/task_2/tracks/track_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_17/task_3/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_11/taskWithAsterisk_2/SequenceOfIncreasingNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_11/taskWithAsterisk_2/SequenceOfIncreasingNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_16/task_1/CopyOfPictureWithFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_16/task_1/CopyOfPictureWithFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_16/task_2/CopyOfPictureWithBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_16/task_2/CopyOfPictureWithBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_16/task_3/CopyWithFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_16/task_3/CopyWithFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_16/task_4/CopyWithBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_16/task_4/CopyWithBuffer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +55,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "extract.method.default.visibility": "private",
-    "last_opened_file_path": "C:/Users/aniay/IdeaProjects/pingwit-hometasks",
+    "last_opened_file_path": "C:/Users/aniay/IdeaProjects/pingwit-4",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,26 +69,13 @@
       <recent name="C:\Users\aniay\IdeaProjects\java-home\src\main\java\org\example\hw_16\files" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CopyWithBuffer">
-    <configuration name="CopyOfPictureWithBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_16.task_2.CopyOfPictureWithBuffer" />
+  <component name="RunManager" selected="Application.SequenceOfIncreasingNumbers">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_17.task_1.Application" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_16.task_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CopyOfPictureWithFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_16.task_1.CopyOfPictureWithFile" />
-      <module name="java-home" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.hw_16.task_1.*" />
+          <option name="PATTERN" value="org.example.hw_17.task_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,19 +96,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CopyWithFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_16.task_3.CopyWithFile" />
-      <module name="java-home" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.hw_16.task_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SequenceOfIncreasingNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.hw_11.taskWithAsterisk_2.SequenceOfIncreasingNumbers" />
       <module name="java-home" />
@@ -125,20 +109,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.hw_17.task_2.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_17.task_2.Application" />
+      <module name="java-home" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.hw_17.task_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.hw_17.task_3.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_17.task_3.Application" />
+      <module name="java-home" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.hw_17.task_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.CopyOfPictureWithBuffer" />
-      <item itemvalue="Application.CopyOfPictureWithFile" />
       <item itemvalue="Application.CopyWithBuffer" />
-      <item itemvalue="Application.CopyWithFile" />
       <item itemvalue="Application.SequenceOfIncreasingNumbers" />
+      <item itemvalue="Application.org.example.hw_17.task_2.Application" />
+      <item itemvalue="Application.org.example.hw_17.task_3.Application" />
+      <item itemvalue="Application.Application" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CopyWithBuffer" />
         <item itemvalue="Application.SequenceOfIncreasingNumbers" />
-        <item itemvalue="Application.CopyWithFile" />
-        <item itemvalue="Application.CopyOfPictureWithFile" />
-        <item itemvalue="Application.CopyOfPictureWithBuffer" />
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.org.example.hw_17.task_3.Application" />
+        <item itemvalue="Application.org.example.hw_17.task_2.Application" />
+        <item itemvalue="Application.CopyWithBuffer" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +164,7 @@
       <workItem from="1678231884403" duration="14029000" />
       <workItem from="1678430779110" duration="32413000" />
       <workItem from="1678826538746" duration="27642000" />
-      <workItem from="1679167492672" duration="20779000" />
+      <workItem from="1679167492672" duration="33130000" />
     </task>
     <servers />
   </component>
@@ -171,36 +181,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/hw_11/taskWithAsterisk_2/SequenceOfIncreasingNumbers.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/hw_11/taskWithAsterisk_2/SequenceOfIncreasingNumbers.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/hw_11/taskWithAsterisk_2/SequenceOfIncreasingNumbers.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/hw_11/taskWithAsterisk_2/SequenceOfIncreasingNumbers.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/hw_11/taskWithAsterisk_2/SequenceOfIncreasingNumbers.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
