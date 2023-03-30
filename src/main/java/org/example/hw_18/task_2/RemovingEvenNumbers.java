@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+// проверил, замечаний нет
 public class RemovingEvenNumbers {
     public static void main(String[] args) {
         List<Integer> numbers = new ArrayList<>();

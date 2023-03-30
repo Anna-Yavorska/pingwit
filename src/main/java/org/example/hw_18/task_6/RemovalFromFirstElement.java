@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
+// проверил, замечаний нет
 public class RemovalFromFirstElement {
     public static void main(String[] args) {
         List<Integer> arrayList = new ArrayList<>();

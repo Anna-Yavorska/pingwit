@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+// все отлично
 public class LoginVerification {
     public static void main(String[] args) {
         List<String> names = new ArrayList<>(List.of("Vlad", "Olga", "Timur", "Liudmila", "Konstantin", "Elena"));
