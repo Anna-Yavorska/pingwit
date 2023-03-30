@@ -24,11 +24,11 @@ public class Application {
                 Song song = mapper.readValue(files[i], Song.class);
                 songs[i] = song;
             }
-            for (Song song : songs) {
-                System.out.println(song);
-            }
         } catch (IOException e) {
             e.printStackTrace();
+        }
+        for (Song song : songs) {
+            System.out.println(song);
         }
     }
 }

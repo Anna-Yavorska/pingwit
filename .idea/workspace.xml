@@ -5,23 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb078b7c-f893-4490-ac78-33804eb9f8e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_17/task_1/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_17/task_1/Motorcycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_17/task_1/motorcycle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_17/task_2/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_17/task_2/Song.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_17/task_2/tracks/track_1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_17/task_2/tracks/track_2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_17/task_2/tracks/track_3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_17/task_2/tracks/track_4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_17/task_3/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_18/task_1/LoginVerification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_18/task_2/RemovingEvenNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_18/task_3/RemovingRepetitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_18/task_4/Repetition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_18/task_5/RemovalFromTheMiddle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_18/task_6/RemovalFromFirstElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_11/taskWithAsterisk_2/SequenceOfIncreasingNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_11/taskWithAsterisk_2/SequenceOfIncreasingNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_16/task_1/CopyOfPictureWithFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_16/task_1/CopyOfPictureWithFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_16/task_2/CopyOfPictureWithBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_16/task_2/CopyOfPictureWithBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_16/task_3/CopyWithFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_16/task_3/CopyWithFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_16/task_4/CopyWithBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_16/task_4/CopyWithBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_17/task_3/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_17/task_3/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,13 +60,13 @@
       <recent name="C:\Users\aniay\IdeaProjects\java-home\src\main\java\org\example\hw_16\files" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SequenceOfIncreasingNumbers">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_17.task_1.Application" />
+  <component name="RunManager" selected="Application.RemovingEvenNumbers">
+    <configuration name="RemovalFromFirstElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_18.task_6.RemovalFromFirstElement" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_17.task_1.*" />
+          <option name="PATTERN" value="org.example.hw_18.task_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CopyWithBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_16.task_4.CopyWithBuffer" />
+    <configuration name="RemovalFromTheMiddle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_18.task_5.RemovalFromTheMiddle" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_16.task_4.*" />
+          <option name="PATTERN" value="org.example.hw_18.task_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequenceOfIncreasingNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_11.taskWithAsterisk_2.SequenceOfIncreasingNumbers" />
+    <configuration name="RemovingEvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_18.task_2.RemovingEvenNumbers" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_11.taskWithAsterisk_2.*" />
+          <option name="PATTERN" value="org.example.hw_18.task_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.hw_17.task_2.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_17.task_2.Application" />
+    <configuration name="RemovingRepetitions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_18.task_3.RemovingRepetitions" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_17.task_2.*" />
+          <option name="PATTERN" value="org.example.hw_18.task_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.hw_17.task_3.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_17.task_3.Application" />
+    <configuration name="Repetition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_18.task_4.Repetition" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_17.task_3.*" />
+          <option name="PATTERN" value="org.example.hw_18.task_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,19 +127,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CopyWithBuffer" />
-      <item itemvalue="Application.SequenceOfIncreasingNumbers" />
-      <item itemvalue="Application.org.example.hw_17.task_2.Application" />
-      <item itemvalue="Application.org.example.hw_17.task_3.Application" />
-      <item itemvalue="Application.Application" />
+      <item itemvalue="Application.RemovalFromFirstElement" />
+      <item itemvalue="Application.RemovalFromTheMiddle" />
+      <item itemvalue="Application.RemovingEvenNumbers" />
+      <item itemvalue="Application.RemovingRepetitions" />
+      <item itemvalue="Application.Repetition" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SequenceOfIncreasingNumbers" />
-        <item itemvalue="Application.Application" />
-        <item itemvalue="Application.org.example.hw_17.task_3.Application" />
-        <item itemvalue="Application.org.example.hw_17.task_2.Application" />
-        <item itemvalue="Application.CopyWithBuffer" />
+        <item itemvalue="Application.RemovingEvenNumbers" />
+        <item itemvalue="Application.RemovalFromFirstElement" />
+        <item itemvalue="Application.RemovalFromTheMiddle" />
+        <item itemvalue="Application.Repetition" />
+        <item itemvalue="Application.RemovingRepetitions" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +155,7 @@
       <workItem from="1678231884403" duration="14029000" />
       <workItem from="1678430779110" duration="32413000" />
       <workItem from="1678826538746" duration="27642000" />
-      <workItem from="1679167492672" duration="33130000" />
+      <workItem from="1679167492672" duration="40164000" />
     </task>
     <servers />
   </component>
