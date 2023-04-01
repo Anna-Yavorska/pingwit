@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb078b7c-f893-4490-ac78-33804eb9f8e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_18/task_1/LoginVerification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_18/task_2/RemovingEvenNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_18/task_3/RemovingRepetitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_18/task_4/Repetition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_18/task_5/RemovalFromTheMiddle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_18/task_6/RemovalFromFirstElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_19/task_1/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_19/task_1/FootballClub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_19/task_2/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_19/task_2/CheckService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_19/task_2/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_19/task_3/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_19/task_3/SiteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_19/task_3/SiteVisit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_17/task_3/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_17/task_3/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +61,13 @@
       <recent name="C:\Users\aniay\IdeaProjects\java-home\src\main\java\org\example\hw_16\files" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemovingEvenNumbers">
-    <configuration name="RemovalFromFirstElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_18.task_6.RemovalFromFirstElement" />
+  <component name="RunManager" selected="Application.org.example.hw_19.task_3.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_19.task_1.Application" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_18.task_6.*" />
+          <option name="PATTERN" value="org.example.hw_19.task_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemovalFromTheMiddle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_18.task_5.RemovalFromTheMiddle" />
+    <configuration name="Be" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_19.Be" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_18.task_5.*" />
+          <option name="PATTERN" value="org.example.hw_19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemovingEvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_18.task_2.RemovingEvenNumbers" />
+    <configuration name="Butterfly" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_4.task_3.Butterfly" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_18.task_2.*" />
+          <option name="PATTERN" value="org.example.hw_4.task_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemovingRepetitions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_18.task_3.RemovingRepetitions" />
+    <configuration name="org.example.hw_19.task_2.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_19.task_2.Application" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_18.task_3.*" />
+          <option name="PATTERN" value="org.example.hw_19.task_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Repetition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_18.task_4.Repetition" />
+    <configuration name="org.example.hw_19.task_3.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_19.task_3.Application" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_18.task_4.*" />
+          <option name="PATTERN" value="org.example.hw_19.task_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,19 +128,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RemovalFromFirstElement" />
-      <item itemvalue="Application.RemovalFromTheMiddle" />
-      <item itemvalue="Application.RemovingEvenNumbers" />
-      <item itemvalue="Application.RemovingRepetitions" />
-      <item itemvalue="Application.Repetition" />
+      <item itemvalue="Application.Be" />
+      <item itemvalue="Application.Butterfly" />
+      <item itemvalue="Application.org.example.hw_19.task_2.Application" />
+      <item itemvalue="Application.org.example.hw_19.task_3.Application" />
+      <item itemvalue="Application.Application" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RemovingEvenNumbers" />
-        <item itemvalue="Application.RemovalFromFirstElement" />
-        <item itemvalue="Application.RemovalFromTheMiddle" />
-        <item itemvalue="Application.Repetition" />
-        <item itemvalue="Application.RemovingRepetitions" />
+        <item itemvalue="Application.org.example.hw_19.task_3.Application" />
+        <item itemvalue="Application.org.example.hw_19.task_2.Application" />
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.Be" />
+        <item itemvalue="Application.Butterfly" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +156,7 @@
       <workItem from="1678231884403" duration="14029000" />
       <workItem from="1678430779110" duration="32413000" />
       <workItem from="1678826538746" duration="27642000" />
-      <workItem from="1679167492672" duration="40164000" />
+      <workItem from="1679167492672" duration="63583000" />
     </task>
     <servers />
   </component>
@@ -172,5 +173,26 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/hw_19/task_2/Product.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/hw_19/task_2/Product.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/hw_19/task_2/Product.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
