@@ -14,6 +14,7 @@ public class Application {
         FootballClub milan = new FootballClub("Milan", "Italy", "Milan");
 
         List<FootballClub> clubs = new ArrayList<>(List.of(realMadrid, manchesterUnited, barcelona, valencia, milan));
+        // я рекомендовал бы называть коллекцию, исходя из ее содержимого, например здесь подойдет sortedCountries или countriesAlphabetically
         SortedSet<String> sortedSet = new TreeSet<>();
 
         for (FootballClub footballClub : clubs) {
