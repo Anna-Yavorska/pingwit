@@ -14,13 +14,12 @@ public class Application {
         FootballClub milan = new FootballClub("Milan", "Italy", "Milan");
 
         List<FootballClub> clubs = new ArrayList<>(List.of(realMadrid, manchesterUnited, barcelona, valencia, milan));
-        // я рекомендовал бы называть коллекцию, исходя из ее содержимого, например здесь подойдет sortedCountries или countriesAlphabetically
-        SortedSet<String> sortedSet = new TreeSet<>();
+        SortedSet<String> sortedCountries = new TreeSet<>();
 
         for (FootballClub footballClub : clubs) {
             String country = footballClub.getCountry();
-            sortedSet.add(country);
+            sortedCountries.add(country);
         }
-        System.out.println(sortedSet);
+        System.out.println(sortedCountries);
     }
 }
