@@ -10,6 +10,9 @@ public class Product implements Serializable {
     private Integer id;
     private String name;
     private String description;
+
+    // класс Product описывает одно наименование продукта из магазина, поэтому в нем не должно храниться инфомации о дргуих продуктах и их количесвте
+    // логику по заполнению каталога плиз перемести в класс каталог
     private final Map<Integer, Product> products = new HashMap<>();
 
     public Product() {

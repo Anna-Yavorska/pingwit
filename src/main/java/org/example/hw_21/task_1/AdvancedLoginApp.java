@@ -16,6 +16,8 @@ public class AdvancedLoginApp {
 
         Map<String, Password> namesWithPasswords = new HashMap<>();
 
+        // реализация рабочая, но есть куда улучшить. Я бы пердложил вынести логику количесвта попыток и проверок в отдельный сервис
+
         namesWithPasswords.put("Pavel", new Password(ATTEMPTS_QUANTITY, "pass1"));
         namesWithPasswords.put("Anna", new Password(ATTEMPTS_QUANTITY, "pass2"));
         namesWithPasswords.put("Illia", new Password(ATTEMPTS_QUANTITY, "pass3"));
