@@ -4,6 +4,7 @@ import java.util.Objects;
 
 public class Password {
     private static final int UNIT = 1;
+    public static final int ATTEMPTS_QUANTITY = 3;
     private int attemptsQuantity;
     private final String password;
 
@@ -26,6 +27,10 @@ public class Password {
 
     public void changeAttemptsQuantity(Password password) {
         password.setAttemptsQuantity(password.getAttemptsQuantity() - UNIT);
+    }
+
+    public void resetAttemptsQuantity(Password password) {
+        password.setAttemptsQuantity(ATTEMPTS_QUANTITY);
     }
 
     @Override

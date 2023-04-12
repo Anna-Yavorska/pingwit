@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb078b7c-f893-4490-ac78-33804eb9f8e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_21/task_2/Catalog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_21/task_2/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_21/task_1/PasswordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_21/task_1/second_option/BlackListApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_21/task_1/second_option/BlackListService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_21/task_1/AdvancedLoginApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_21/task_1/AdvancedLoginApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_21/task_1/BlackListService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_21/task_1/Password.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_21/task_1/Password.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_21/task_2/Catalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_21/task_2/Catalog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_21/task_2/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_21/task_2/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +70,20 @@
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_21.task_1.*" />
+          <option name="PATTERN" value="org.example.hw_21.task_1.second_option.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlackListApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_21.task_1.second_option.BlackListApplication" />
+      <module name="java-home" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.hw_21.task_1.second_option.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,33 +130,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.hw_19.task_3.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_19.task_3.Application" />
-      <module name="java-home" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.hw_19.task_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.AdvancedLoginApp" />
+      <item itemvalue="Application.BlackListApplication" />
       <item itemvalue="Application.Catalog" />
       <item itemvalue="Application.ComparatorsHomework" />
       <item itemvalue="Application.RegexpHomework" />
-      <item itemvalue="Application.org.example.hw_19.task_3.Application" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.AdvancedLoginApp" />
+        <item itemvalue="Application.BlackListApplication" />
         <item itemvalue="Application.Catalog" />
         <item itemvalue="Application.ComparatorsHomework" />
         <item itemvalue="Application.RegexpHomework" />
-        <item itemvalue="Application.org.example.hw_19.task_3.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +160,7 @@
       <workItem from="1678430779110" duration="32413000" />
       <workItem from="1678826538746" duration="27642000" />
       <workItem from="1679167492672" duration="65084000" />
-      <workItem from="1680471775930" duration="28950000" />
+      <workItem from="1680471775930" duration="40531000" />
     </task>
     <servers />
   </component>
@@ -189,6 +195,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/hw_19/task_2/Product.java</url>
           <line>57</line>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/hw_21/task_1/PasswordService.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/hw_21/task_1/PasswordService.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
