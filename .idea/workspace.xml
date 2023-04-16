@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb078b7c-f893-4490-ac78-33804eb9f8e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_21/task_1/PasswordService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_21/task_1/second_option/BlackListApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_21/task_1/second_option/BlackListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_22/task_1/PersonalInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_22/task_1/ReflectionHomework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_22/task_2/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_22/task_2/NumberStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_22/task_2/generics.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_22/task_3/AutoInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_22/task_3/AutoInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_22/task_3/GroupingHomework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_22/task_3/SortingHomework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_22/task_3/UniqueHomework.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_21/task_1/AdvancedLoginApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_21/task_1/AdvancedLoginApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_21/task_1/BlackListService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_21/task_1/Password.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_21/task_1/Password.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_21/task_2/Catalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_21/task_2/Catalog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_21/task_2/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_21/task_2/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +49,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "extract.method.default.visibility": "private",
-    "last_opened_file_path": "C:/Users/aniay/IdeaProjects/java-home/src/main/java/org/example/hw_21",
+    "last_opened_file_path": "C:/Users/aniay/IdeaProjects/java-home/src/main/java/org/example/hw_22",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,19 +60,20 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aniay\IdeaProjects\java-home\src\main\java\org\example\hw_22" />
       <recent name="C:\Users\aniay\IdeaProjects\java-home\src\main\java\org\example\hw_21" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\aniay\IdeaProjects\java-home\src\main\java\org\example\hw_16\files" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AdvancedLoginApp">
-    <configuration name="AdvancedLoginApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_21.task_1.AdvancedLoginApp" />
+  <component name="RunManager" selected="Application.SortingHomework">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_22.task_2.Application" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_21.task_1.second_option.*" />
+          <option name="PATTERN" value="org.example.hw_22.task_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BlackListApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_21.task_1.second_option.BlackListApplication" />
+    <configuration name="GroupingHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_22.task_3.GroupingHomework" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_21.task_1.second_option.*" />
+          <option name="PATTERN" value="org.example.hw_22.task_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Catalog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_21.task_2.Catalog" />
+    <configuration name="ReflectionHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_22.task_1.ReflectionHomework" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_21.task_2.*" />
+          <option name="PATTERN" value="org.example.hw_22.task_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComparatorsHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_20.task_1.ComparatorsHomework" />
+    <configuration name="SortingHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_22.task_3.SortingHomework" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_20.task_1.*" />
+          <option name="PATTERN" value="org.example.hw_22.task_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegexpHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_20.task_2.RegexpHomework" />
+    <configuration name="UniqueHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_22.task_3.UniqueHomework" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_20.task_2.*" />
+          <option name="PATTERN" value="org.example.hw_22.task_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,19 +134,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AdvancedLoginApp" />
-      <item itemvalue="Application.BlackListApplication" />
-      <item itemvalue="Application.Catalog" />
-      <item itemvalue="Application.ComparatorsHomework" />
-      <item itemvalue="Application.RegexpHomework" />
+      <item itemvalue="Application.GroupingHomework" />
+      <item itemvalue="Application.ReflectionHomework" />
+      <item itemvalue="Application.SortingHomework" />
+      <item itemvalue="Application.UniqueHomework" />
+      <item itemvalue="Application.Application" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AdvancedLoginApp" />
-        <item itemvalue="Application.BlackListApplication" />
-        <item itemvalue="Application.Catalog" />
-        <item itemvalue="Application.ComparatorsHomework" />
-        <item itemvalue="Application.RegexpHomework" />
+        <item itemvalue="Application.SortingHomework" />
+        <item itemvalue="Application.UniqueHomework" />
+        <item itemvalue="Application.GroupingHomework" />
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.ReflectionHomework" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +163,7 @@
       <workItem from="1678430779110" duration="32413000" />
       <workItem from="1678826538746" duration="27642000" />
       <workItem from="1679167492672" duration="65084000" />
-      <workItem from="1680471775930" duration="40531000" />
+      <workItem from="1680471775930" duration="53174000" />
     </task>
     <servers />
   </component>
@@ -195,16 +198,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/hw_19/task_2/Product.java</url>
           <line>57</line>
           <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/hw_21/task_1/PasswordService.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/hw_21/task_1/PasswordService.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
