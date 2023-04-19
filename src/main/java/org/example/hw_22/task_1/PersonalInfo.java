@@ -2,7 +2,7 @@ package org.example.hw_22.task_1;
 
 public class PersonalInfo {
 
-    private String name;
+    private String name; 
     private String surname;
     private int age;
     private boolean isMarried;
