@@ -7,6 +7,7 @@ import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Random;
 
+// все отлично
 public class ReflectionHomework {
     private static final Random random = new Random();
 

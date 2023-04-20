@@ -2,6 +2,7 @@ package org.example.hw_22.task_2;
 
 import java.util.Random;
 
+// Все хорошо, замечаний нет
 public class Application {
     private static final int ARRAYS_LENGTH = 10;
 

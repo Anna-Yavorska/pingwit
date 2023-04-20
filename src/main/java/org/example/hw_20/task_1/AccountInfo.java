@@ -38,6 +38,10 @@ public class AccountInfo {
         return dateOfBirth;
     }
 
+    public static String sayHello() {
+       return "kjnekjnrek";
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
