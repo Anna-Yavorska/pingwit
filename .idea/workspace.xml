@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb078b7c-f893-4490-ac78-33804eb9f8e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_23/task_1/AccountInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_23/task_1/AnnotationsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_23/task_1/AnnotationsValidationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_23/task_1/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_23/task_1/EmailAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_23/task_1/LettersOnlyAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_23/task_2/OnlyDigitsAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_23/task_3/SerializationToJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_23/task_3/serialization.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_22/task_1/PersonalInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_22/task_1/PersonalInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_23/task_1/AccountInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_23/task_1/AccountInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_23/task_1/AnnotationsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_23/task_1/ValidationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_23/task_1/AnnotationsValidationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_23/task_1/AnnotationsValidationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_23/task_1/EmailAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_23/task_1/ValidEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_23/task_1/LettersOnlyAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_23/task_1/LettersOnly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/hw_23/task_1/AnnotationsValidationServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/hw_23/task_1/AnnotationsValidationServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,22 +39,22 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/aniay/IdeaProjects/java-home/src/main/java/org/example/hw_22&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "extract.method.default.visibility": "private",
+    "last_opened_file_path": "C:/Users/aniay/IdeaProjects/java-home",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example.hw_23.task_1" />
@@ -72,60 +67,8 @@
       <recent name="C:\Users\aniay\IdeaProjects\java-home\src\main\java\org\example\hw_16\files" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SerializationToJson">
-    <configuration name="GroupingHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_22.task_3.GroupingHomework" />
-      <module name="java-home" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.hw_22.task_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SerializationToJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_23.task_3.SerializationToJson" />
-      <module name="java-home" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.hw_23.task_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortingHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_22.task_3.SortingHomework" />
-      <module name="java-home" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.hw_22.task_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UniqueHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_22.task_3.UniqueHomework" />
-      <module name="java-home" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.hw_22.task_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.example.hw_23.task_1.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.hw_23.task_1.Application" />
       <module name="java-home" />
       <extension name="coverage">
@@ -138,20 +81,83 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AnnotationsValidationServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-home" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.hw_23.task_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.hw_23.task_1" />
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_23.task_1.AnnotationsValidationServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnnotationsValidationServiceTest.shouldNotThrowException_whenEmailValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-home" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.hw_23.task_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.hw_23.task_1" />
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_23.task_1.AnnotationsValidationServiceTest" />
+      <option name="METHOD_NAME" value="shouldNotThrowException_whenEmailValid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnnotationsValidationServiceTest.shouldThrowException_whenEmailInvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-home" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.hw_23.task_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.hw_23.task_1" />
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_23.task_1.AnnotationsValidationServiceTest" />
+      <option name="METHOD_NAME" value="shouldThrowException_whenEmailInvalid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnnotationsValidationServiceTest.shouldThrowException_whenPhoneNumberInvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-home" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.hw_23.task_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.hw_23.task_1" />
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_23.task_1.AnnotationsValidationServiceTest" />
+      <option name="METHOD_NAME" value="shouldThrowException_whenPhoneNumberInvalid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.SerializationToJson" />
-      <item itemvalue="Application.org.example.hw_23.task_1.Application" />
-      <item itemvalue="Application.GroupingHomework" />
-      <item itemvalue="Application.SortingHomework" />
-      <item itemvalue="Application.UniqueHomework" />
+      <item itemvalue="Application.Application" />
+      <item itemvalue="JUnit.AnnotationsValidationServiceTest" />
+      <item itemvalue="JUnit.AnnotationsValidationServiceTest.shouldNotThrowException_whenEmailValid" />
+      <item itemvalue="JUnit.AnnotationsValidationServiceTest.shouldThrowException_whenEmailInvalid" />
+      <item itemvalue="JUnit.AnnotationsValidationServiceTest.shouldThrowException_whenPhoneNumberInvalid" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SerializationToJson" />
-        <item itemvalue="Application.org.example.hw_23.task_1.Application" />
-        <item itemvalue="Application.SortingHomework" />
-        <item itemvalue="Application.UniqueHomework" />
-        <item itemvalue="Application.GroupingHomework" />
+        <item itemvalue="Application.Application" />
+        <item itemvalue="JUnit.AnnotationsValidationServiceTest.shouldNotThrowException_whenEmailValid" />
+        <item itemvalue="JUnit.AnnotationsValidationServiceTest" />
+        <item itemvalue="JUnit.AnnotationsValidationServiceTest.shouldThrowException_whenPhoneNumberInvalid" />
+        <item itemvalue="JUnit.AnnotationsValidationServiceTest.shouldThrowException_whenEmailInvalid" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +175,8 @@
       <workItem from="1678826538746" duration="27642000" />
       <workItem from="1679167492672" duration="65084000" />
       <workItem from="1680471775930" duration="53174000" />
-      <workItem from="1681816705788" duration="5642000" />
+      <workItem from="1681816705788" duration="9882000" />
+      <workItem from="1682012227335" duration="4347000" />
     </task>
     <servers />
   </component>

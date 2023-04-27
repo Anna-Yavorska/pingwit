@@ -7,11 +7,11 @@ import java.util.Objects;
 
 
 public class AccountInformation {
-    @LettersOnlyAnnotation
+    @LettersOnly
     private String name;
-    @LettersOnlyAnnotation
+    @LettersOnly
     private String surname;
-    @EmailAnnotation
+    @ValidEmail
     private String email;
     @OnlyDigitsAnnotation
     @JsonIgnore

@@ -15,8 +15,6 @@ public class AnnotationsValidationService {
         for (Field declaredField : object.getClass().getDeclaredFields()) {
             declaredField.setAccessible(true);
             for (Annotation annotation : declaredField.getAnnotations()) {
-                // как идея для улучшения на будущее: можно выносить логику в отдельные private методы, так основной метод становится читабельнее
-                // позже в него будет проще добавить новые валидации
                 validateLettersOnly(object, declaredField, annotation);
                 validateEmail(object, declaredField, annotation);
                 validateDigitsOnly(object, declaredField, annotation);
@@ -29,8 +27,8 @@ public class AnnotationsValidationService {
             try {
                 String value = (String) declaredField.get(object);
                 if (!PHONE_NUMBER_PATTERN.matcher(value).matches()) {
-                    String message = String.format("Field %s with value %s can contains only digits", declaredField.getName(), value);
-                    throw new AnnotationsException(message);
+                    String message = String.format("Field '%s' with value '%s' can contains only digits", declaredField.getName(), value);
+                    throw new ValidationException(message);
                 }
             } catch (IllegalAccessException e) {
                 e.printStackTrace();
@@ -39,12 +37,12 @@ public class AnnotationsValidationService {
     }
 
     private void validateEmail(Object object, Field declaredField, Annotation annotation) {
-        if (annotation.annotationType().equals(EmailAnnotation.class)) {
+        if (annotation.annotationType().equals(ValidEmail.class)) {
             try {
                 String value = (String) declaredField.get(object);
                 if (!EMAIL_PATTERN.matcher(value).matches()) {
-                    String message = String.format("Field %s with value %s must contains '@' and '.'", declaredField.getName(), value);
-                    throw new AnnotationsException(message);
+                    String message = String.format("Field '%s' with value '%s' must contains '@' and '.'", declaredField.getName(), value);
+                    throw new ValidationException(message);
                 }
             } catch (IllegalAccessException e) {
                 e.printStackTrace();
@@ -53,12 +51,12 @@ public class AnnotationsValidationService {
     }
 
     private void validateLettersOnly(Object object, Field declaredField, Annotation annotation) {
-        if (annotation.annotationType().equals(LettersOnlyAnnotation.class)) {
+        if (annotation.annotationType().equals(LettersOnly.class)) {
             try {
                 String value = (String) declaredField.get(object);
                 if (!ONLY_LETTERS_PATTERN.matcher(value).matches()) {
-                    String message = String.format("Field %s with value %s can contain only letters", declaredField.getName(), value);
-                    throw new AnnotationsException(message);
+                    String message = String.format("Field '%s' with value '%s' can contain only letters", declaredField.getName(), value);
+                    throw new ValidationException(message);
                 }
             } catch (IllegalAccessException e) {
                 e.printStackTrace();
