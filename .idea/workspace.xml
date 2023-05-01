@@ -5,13 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb078b7c-f893-4490-ac78-33804eb9f8e3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_25/task_1/ConvertingNumberToString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_25/task_2/MultiplicationFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_25/task_3/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_25/task_3/CreatingObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_25/task_3/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_25/task_4/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_25/task_4/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_25/task_5/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_25/task_5/Medal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_25/task_5/MedalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_25/task_5/Sportsman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_25/task_6/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_25/task_6/ReverseOrderForStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_25/task_6/ReversedStringComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_23/task_1/AccountInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_23/task_1/AccountInformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_23/task_1/AnnotationsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_23/task_1/ValidationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_23/task_1/AnnotationsValidationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_23/task_1/AnnotationsValidationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_23/task_1/EmailAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_23/task_1/ValidEmail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_23/task_1/LettersOnlyAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_23/task_1/LettersOnly.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/hw_23/task_1/AnnotationsValidationServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/hw_23/task_1/AnnotationsValidationServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,10 +29,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
-        <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -69,11 +77,11 @@
   </component>
   <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_23.task_1.Application" />
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_25.task_5.Application" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_23.task_1.*" />
+          <option name="PATTERN" value="org.example.hw_25.task_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,83 +89,72 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnnotationsValidationServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConvertingNumberToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_25.task_1.ConvertingNumberToString" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_23.task_1.*" />
+          <option name="PATTERN" value="org.example.hw_25.task_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.hw_23.task_1" />
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_23.task_1.AnnotationsValidationServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnnotationsValidationServiceTest.shouldNotThrowException_whenEmailValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="org.example.hw_25.task_3.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_25.task_3.Application" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_23.task_1.*" />
+          <option name="PATTERN" value="org.example.hw_25.task_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.hw_23.task_1" />
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_23.task_1.AnnotationsValidationServiceTest" />
-      <option name="METHOD_NAME" value="shouldNotThrowException_whenEmailValid" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnnotationsValidationServiceTest.shouldThrowException_whenEmailInvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="org.example.hw_25.task_4.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_25.task_4.Application" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_23.task_1.*" />
+          <option name="PATTERN" value="org.example.hw_25.task_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.hw_23.task_1" />
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_23.task_1.AnnotationsValidationServiceTest" />
-      <option name="METHOD_NAME" value="shouldThrowException_whenEmailInvalid" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnnotationsValidationServiceTest.shouldThrowException_whenPhoneNumberInvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="org.example.hw_25.task_6.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_25.task_6.Application" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_23.task_1.*" />
+          <option name="PATTERN" value="org.example.hw_25.task_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.hw_23.task_1" />
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_23.task_1.AnnotationsValidationServiceTest" />
-      <option name="METHOD_NAME" value="shouldThrowException_whenPhoneNumberInvalid" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Application" />
-      <item itemvalue="JUnit.AnnotationsValidationServiceTest" />
-      <item itemvalue="JUnit.AnnotationsValidationServiceTest.shouldNotThrowException_whenEmailValid" />
-      <item itemvalue="JUnit.AnnotationsValidationServiceTest.shouldThrowException_whenEmailInvalid" />
-      <item itemvalue="JUnit.AnnotationsValidationServiceTest.shouldThrowException_whenPhoneNumberInvalid" />
+      <item itemvalue="Application.ConvertingNumberToString" />
+      <item itemvalue="Application.org.example.hw_25.task_3.Application" />
+      <item itemvalue="Application.org.example.hw_25.task_4.Application" />
+      <item itemvalue="Application.org.example.hw_25.task_6.Application" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Application" />
-        <item itemvalue="JUnit.AnnotationsValidationServiceTest.shouldNotThrowException_whenEmailValid" />
-        <item itemvalue="JUnit.AnnotationsValidationServiceTest" />
-        <item itemvalue="JUnit.AnnotationsValidationServiceTest.shouldThrowException_whenPhoneNumberInvalid" />
-        <item itemvalue="JUnit.AnnotationsValidationServiceTest.shouldThrowException_whenEmailInvalid" />
+        <item itemvalue="Application.org.example.hw_25.task_6.Application" />
+        <item itemvalue="Application.org.example.hw_25.task_3.Application" />
+        <item itemvalue="Application.org.example.hw_25.task_4.Application" />
+        <item itemvalue="Application.ConvertingNumberToString" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +173,7 @@
       <workItem from="1679167492672" duration="65084000" />
       <workItem from="1680471775930" duration="53174000" />
       <workItem from="1681816705788" duration="9882000" />
-      <workItem from="1682012227335" duration="4347000" />
+      <workItem from="1682012227335" duration="20893000" />
     </task>
     <servers />
   </component>
