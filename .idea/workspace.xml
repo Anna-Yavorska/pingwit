@@ -5,20 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb078b7c-f893-4490-ac78-33804eb9f8e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_25/task_1/ConvertingNumberToString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_25/task_2/MultiplicationFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_25/task_3/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_25/task_3/CreatingObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_25/task_3/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_25/task_4/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_25/task_4/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_25/task_5/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_25/task_5/Medal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_25/task_5/MedalService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_25/task_5/Sportsman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_25/task_6/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_25/task_6/ReverseOrderForStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_25/task_6/ReversedStringComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_26/task_1/FilteredStringByLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_26/task_2/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_26/task_2/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_26/task_3/FindingStreets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_26/task_4/FindingUniqueCities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_26/task_5/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_26/task_5/CityStreet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_26/task_6/FindingKyivStreets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_26/task_7/IntegerStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +26,8 @@
       <list>
         <option value="AnnotationType" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -74,14 +69,18 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\aniay\IdeaProjects\java-home\src\main\java\org\example\hw_16\files" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.hw_26.task_5" />
+      <recent name="org.example.hw_26.task_2" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_25.task_5.Application" />
+  <component name="RunManager" selected="Application.IntegerStream">
+    <configuration name="FindingKyivStreets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_26.task_6.FindingKyivStreets" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_25.task_5.*" />
+          <option name="PATTERN" value="org.example.hw_26.task_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConvertingNumberToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_25.task_1.ConvertingNumberToString" />
+    <configuration name="FindingStreets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_26.task_3.FindingStreets" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_25.task_1.*" />
+          <option name="PATTERN" value="org.example.hw_26.task_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.hw_25.task_3.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_25.task_3.Application" />
+    <configuration name="FindingUniqueCities" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_26.task_4.FindingUniqueCities" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_25.task_3.*" />
+          <option name="PATTERN" value="org.example.hw_26.task_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.hw_25.task_4.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_25.task_4.Application" />
+    <configuration name="IntegerStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_26.task_7.IntegerStream" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_25.task_4.*" />
+          <option name="PATTERN" value="org.example.hw_26.task_7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.hw_25.task_6.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_25.task_6.Application" />
+    <configuration name="org.example.hw_26.task_5.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_26.task_5.Application" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_25.task_5.*" />
+          <option name="PATTERN" value="org.example.hw_26.task_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,19 +141,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Application" />
-      <item itemvalue="Application.ConvertingNumberToString" />
-      <item itemvalue="Application.org.example.hw_25.task_3.Application" />
-      <item itemvalue="Application.org.example.hw_25.task_4.Application" />
-      <item itemvalue="Application.org.example.hw_25.task_6.Application" />
+      <item itemvalue="Application.FindingKyivStreets" />
+      <item itemvalue="Application.FindingStreets" />
+      <item itemvalue="Application.FindingUniqueCities" />
+      <item itemvalue="Application.IntegerStream" />
+      <item itemvalue="Application.org.example.hw_26.task_5.Application" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Application" />
-        <item itemvalue="Application.org.example.hw_25.task_6.Application" />
-        <item itemvalue="Application.org.example.hw_25.task_3.Application" />
-        <item itemvalue="Application.org.example.hw_25.task_4.Application" />
-        <item itemvalue="Application.ConvertingNumberToString" />
+        <item itemvalue="Application.IntegerStream" />
+        <item itemvalue="Application.FindingKyivStreets" />
+        <item itemvalue="Application.org.example.hw_26.task_5.Application" />
+        <item itemvalue="Application.FindingUniqueCities" />
+        <item itemvalue="Application.FindingStreets" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +172,7 @@
       <workItem from="1679167492672" duration="65084000" />
       <workItem from="1680471775930" duration="53174000" />
       <workItem from="1681816705788" duration="9882000" />
-      <workItem from="1682012227335" duration="21218000" />
+      <workItem from="1682012227335" duration="30248000" />
     </task>
     <servers />
   </component>
