@@ -5,6 +5,7 @@ import org.example.hw_26.task_5.CityStreet;
 
 import java.util.List;
 
+// все хорошо
 public class FindingKyivStreets {
     public static void main(String[] args) {
         List<Address> addresses = List.of(

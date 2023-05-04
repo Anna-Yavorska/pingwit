@@ -2,6 +2,7 @@ package org.example.hw_26.task_1;
 
 import java.util.List;
 
+// все хорошо
 public class FilteredStringByLength {
     public static void main(String[] args) {
         List<String> collectionsInterfaces = List.of("Iterable", "Collection", "List", "Queue", "Deque", "Set", "SortedSet");

@@ -4,6 +4,7 @@ import org.example.hw_26.task_2.Address;
 
 import java.util.List;
 
+// все хорошо
 public class FindingStreets {
     public static void main(String[] args) {
         List<Address> addresses = List.of(

@@ -2,6 +2,7 @@ package org.example.hw_26.task_2;
 
 import java.util.List;
 
+// все хорошо
 public class Application {
     public static void main(String[] args) {
         List<Address> addresses = List.of(

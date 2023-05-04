@@ -2,6 +2,7 @@ package org.example.hw_25.task_1;
 
 import java.util.function.Function;
 
+// отлично! на занятии попробуем вынести этот метод в сервис и написать юнит-тест
 public class ConvertingNumberToString {
     public static void main(String[] args) {
         Function<Integer, String> addWord = number -> {

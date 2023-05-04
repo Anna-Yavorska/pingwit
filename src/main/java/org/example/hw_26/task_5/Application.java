@@ -20,6 +20,9 @@ public class Application {
 
         Set<CityStreet> warshawaAddresses = addresses.stream()
                 .map(address -> new CityStreet(address.getCity(), address.getStreet()))
+                // тут возможна небольшая оптимизация: можно сначала оставить в стриме только адреса Варшавы, а потом
+                // преобразовать их в короткие адреса - так джаве придется создавать меньше "мусорных" объектов
+                // исправлять не нужно, просто для информации
                 .filter(cityStreet -> cityStreet.getCity().equals("Warshawa"))
                 .collect(Collectors.toSet());
 
