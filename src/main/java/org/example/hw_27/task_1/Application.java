@@ -7,6 +7,7 @@ import java.time.LocalDate;
 import java.util.List;
 import java.util.Map;
 
+// все отлично
 public class Application {
     public static void main(String[] args) {
         ServiceForListAbonents forListAbonents = new ServiceForListAbonents();

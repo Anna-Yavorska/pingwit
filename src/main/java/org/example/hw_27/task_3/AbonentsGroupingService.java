@@ -7,6 +7,7 @@ import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
+// все отлично
 public class AbonentsGroupingService {
     public Map<String, Abonent> findOrdinaryAbonents(List<Abonent> abonents) {
         return abonents.stream()

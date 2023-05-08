@@ -8,6 +8,7 @@ import java.util.IntSummaryStatistics;
 import java.util.List;
 import java.util.stream.Collectors;
 
+// отлично
 public class AbonentsStatisticsService {
     public String statisticsByDateOfBirth(List<Abonent> abonents) {
         IntSummaryStatistics statistics = abonents.stream()
