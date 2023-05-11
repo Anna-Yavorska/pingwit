@@ -1,0 +1,609 @@
+[
+  {
+    "id": 11328612,
+    "title": "Volkswagen Golf VI, 2009",
+    "isPriority": false,
+    "label": null,
+    "isFavorite": false,
+    "price": {
+      "prev": false,
+      "byn": "27 410 BYN",
+      "usd": "9 500 USD",
+      "eur": "8 596 EUR"
+    },
+    "description": "254000 км <br /> 2009г. / 1.4 amt 122 л.c. / бензин / робот / передний / хэтчбек 5 дв.",
+    "city": "Солигорск",
+    "seller": false,
+    "finance": {
+      "title": "В лизинг от 630 руб/мес",
+      "modal": "modal-adverts-finance-2",
+      "link": false
+    },
+    "lastTimeUp": "Несколько секунд назад",
+    "image": [
+      "/upload/2023/05/05/baaf78a70631119c4a2e94600adfa8e6.webp",
+      "/upload/2023/05/05/d38542a80faec65478e974cb48fece5c.webp",
+      "/upload/2023/05/05/05ca9d05893033b3fbca78a42e9f2638.webp",
+      "/upload/2023/05/05/a6babb0ac4d61a3bc72ad1114db2ffcb.webp",
+      "/upload/2023/05/05/037d87188104750e1b20ad36953c0f98.webp",
+      "/upload/2023/05/05/02da71fdf35f87e0e281dd7716c308bc.webp"
+    ],
+    "stats": false,
+    "status": 1,
+    "link": "/cars/detail/volkswagen/golf/11328612"
+  },
+  {
+    "id": 3740,
+    "title": "BMW X5 I (E53), 2001",
+    "isPriority": false,
+    "label": null,
+    "isFavorite": false,
+    "price": {
+      "prev": false,
+      "byn": "27 410 BYN",
+      "usd": "9 500 USD",
+      "eur": "8 596 EUR"
+    },
+    "description": "270000 км <br /> 2001г. / 3.0 at 231 л.c. 4x4 / бензин / автомат / полный / внедорожник 5 дв.",
+    "city": "Минск",
+    "seller": false,
+    "finance": {
+      "title": "В лизинг от 630 руб/мес",
+      "modal": "modal-adverts-finance-2",
+      "link": false
+    },
+    "lastTimeUp": "2 минут назад",
+    "image": [
+      "/upload/2023/cars/bea93d0d926cd9fe737fb533e60a70a5.webp",
+      "/upload/2023/cars/cd4fdf7eb1fbac9ff91f07f4bead32b2.webp",
+      "/upload/2023/cars/db8471926be24e237137043d07e7a7cf.webp",
+      "/upload/2023/cars/e6a1d8977ec532ecbe67f29b81bf5032.webp",
+      "/upload/2023/cars/c2ddc75e314c3b8fb64326013fdd0800.webp",
+      "/upload/2023/cars/01ed54d1c104420b0f3f6a274b5c7ea6.webp"
+    ],
+    "stats": false,
+    "status": 1,
+    "link": "/cars/detail/bmw/x5/3740"
+  },
+  {
+    "id": 11194122,
+    "title": "Toyota RAV 4 IV (CA40), 2015",
+    "isPriority": false,
+    "label": null,
+    "isFavorite": false,
+    "price": {
+      "prev": false,
+      "byn": "71 844 BYN",
+      "usd": "24 900 USD",
+      "eur": "22 531 EUR"
+    },
+    "description": "68000 км <br /> 2015г. / 2.0 mt 146 л.c. / бензин / механика / передний / внедорожник 5 дв.",
+    "city": "Минск",
+    "seller": false,
+    "finance": false,
+    "lastTimeUp": "2 минут назад",
+    "image": [
+      "/upload/2023/04/11/a95dca9f02f1a3b52ca9cbcf89d00906.webp",
+      "/upload/2023/04/11/0c1e46c205fbb8cdd1d0c43109b24ada.webp",
+      "/upload/2023/04/11/6c10bed4c259717d60e2eec5d3f8c864.webp",
+      "/upload/2023/04/11/3eeec4b5b8df04454116e426bdc6af4a.webp",
+      "/upload/2023/04/11/4ba4f6fa28585923bea3382c78bc606f.webp",
+      "/upload/2023/04/08/a011956c4be3405e769b183128aaccf7.webp"
+    ],
+    "stats": false,
+    "status": 1,
+    "link": "/cars/detail/toyota/rav-4/11194122"
+  },
+  {
+    "id": 11330487,
+    "title": "Mitsubishi Outlander III Рестайлинг 2, 2016",
+    "isPriority": false,
+    "label": null,
+    "isFavorite": false,
+    "price": {
+      "prev": false,
+      "byn": "71 844 BYN",
+      "usd": "24 900 USD",
+      "eur": "22 531 EUR"
+    },
+    "description": "77000 км <br /> 2016г. / 2.4 cvt 167 л.c. 4x4 / бензин / вариатор / полный / внедорожник 5 дв.",
+    "city": "Минск",
+    "seller": false,
+    "finance": false,
+    "lastTimeUp": "2 минут назад",
+    "image": [
+      "/upload/2023/05/07/9d143d22f36556c18d7aafeab2aefbe1.webp",
+      "/upload/2023/05/07/2964fb01fcbf80e8cfd9fe645ddef146.webp",
+      "/upload/2023/05/07/269194aa50ca675b797a51e27dccb03a.webp",
+      "/upload/2023/05/07/13d887c1cba9348409202285203ac2ab.webp",
+      "/upload/2023/05/07/59f7a9dc419d4835324ccebcddfb1ee6.webp",
+      "/upload/2023/05/07/5ce0bddfa86f270ee9e2200da5a2ddad.webp"
+    ],
+    "stats": false,
+    "status": 1,
+    "link": "/cars/detail/mitsubishi/outlander/11330487"
+  },
+  {
+    "id": 11258706,
+    "title": "Skoda Fabia II Рестайлинг, 2013",
+    "isPriority": false,
+    "label": null,
+    "isFavorite": false,
+    "price": {
+      "prev": false,
+      "byn": "28 276 BYN",
+      "usd": "9 800 USD",
+      "eur": "8 868 EUR"
+    },
+    "description": "196000 км <br /> 2013г. / 1.6 at 105 л.c. / бензин / автомат / передний / хэтчбек 5 дв.",
+    "city": "Минск",
+    "seller": false,
+    "finance": {
+      "title": "В лизинг от 650 руб/мес",
+      "modal": "modal-adverts-finance-2",
+      "link": false
+    },
+    "lastTimeUp": "8 минут назад",
+    "image": [
+      "/upload/2023/04/25/051c99e0d9dfeca6f1247ebb79d1862d.webp",
+      "/upload/2023/04/25/2f02b627d6e9e6a920c090ec6d86111b.webp",
+      "/upload/2023/04/25/b509e2d104d03046ea43bd38fcd0ac51.webp",
+      "/upload/2023/04/25/058901fb8e5ca3f70290fbbca8c504c4.webp",
+      "/upload/2023/04/25/c8e4e8d4c2d381242c0b4e31039424a8.webp",
+      "/upload/2023/04/25/34f926594603b39a81680c0df7b55047.webp"
+    ],
+    "stats": false,
+    "status": 1,
+    "link": "/cars/detail/skoda/fabia/11258706"
+  },
+  {
+    "id": 11331131,
+    "title": "Audi A4 IV (B8), 2009",
+    "isPriority": false,
+    "label": null,
+    "isFavorite": false,
+    "price": {
+      "prev": false,
+      "byn": "27 410 BYN",
+      "usd": "9 500 USD",
+      "eur": "8 596 EUR"
+    },
+    "description": "256000 км <br /> 2009г. / 2.0 cvt 211 л.c. / бензин / вариатор / передний / седан",
+    "city": "Минск",
+    "seller": false,
+    "finance": {
+      "title": "В лизинг от 630 руб/мес",
+      "modal": "modal-adverts-finance-2",
+      "link": false
+    },
+    "lastTimeUp": "10 минут назад",
+    "image": [
+      "/upload/2023/05/08/457f70f263090cbd3c34519e6d46e2eb.webp",
+      "/upload/2023/05/08/499e5abe5bbd5c9d3f132f1f520e6a95.webp",
+      "/upload/2023/05/08/31492546b69778d369c7af8532bfb11b.webp",
+      "/upload/2023/05/08/b31ab712c04c5c1080f44746f6f20dc9.webp",
+      "/upload/2023/05/08/586180598e64ea8576b0ee9ebd832c2d.webp",
+      "/upload/2023/05/08/92ed936254c746b60c856a4bece5feec.webp"
+    ],
+    "stats": false,
+    "status": 1,
+    "link": "/cars/detail/audi/a4/11331131"
+  },
+  {
+    "id": 11221253,
+    "title": "Nissan Qashqai II, 2014",
+    "isPriority": false,
+    "label": null,
+    "isFavorite": false,
+    "price": {
+      "prev": false,
+      "byn": "47 607 BYN",
+      "usd": "16 500 USD",
+      "eur": "14 930 EUR"
+    },
+    "description": "196000 км <br /> 2014г. / 2.0 cvt 144 л.c. / бензин / вариатор / передний / внедорожник 5 дв.",
+    "city": "Минск",
+    "seller": false,
+    "finance": false,
+    "lastTimeUp": "11 минут назад",
+    "image": [
+      "/upload/2023/04/18/7979358040a61e4508f3e045f0f138fc.webp",
+      "/upload/2023/04/18/e2957322bcbde8fcba3f0370c0e7ef26.webp",
+      "/upload/2023/04/18/7b154d85c5408e06fd6ebcdac3be872e.webp",
+      "/upload/2023/04/18/80f15e14baecb79f7c0c4ddc6ed13cb0.webp",
+      "/upload/2023/04/18/dc47a4ee8a6bec28a41fa5c9bc65439f.webp",
+      "/upload/2023/04/18/6b0d0ccb8010e8a21794b30d756d5145.webp"
+    ],
+    "stats": false,
+    "status": 1,
+    "link": "/cars/detail/nissan/qashqai/11221253"
+  },
+  {
+    "id": 638,
+    "title": "Toyota Land Cruiser Prado 150 Series, 2010",
+    "isPriority": false,
+    "label": null,
+    "isFavorite": false,
+    "price": {
+      "prev": false,
+      "byn": "100 983 BYN",
+      "usd": "34 999 USD",
+      "eur": "31 669 EUR"
+    },
+    "description": "78500 км <br /> 2010г. / 2.7 at 163 л.c. 4x4 / бензин / автомат / полный / внедорожник 5 дв.",
+    "city": "Минск",
+    "seller": false,
+    "finance": false,
+    "lastTimeUp": "12 минут назад",
+    "image": [
+      "/upload/2023/cars/4be62140eb1ec3f768d89130ebf33cd5.webp",
+      "/upload/2023/cars/45f65c2db1d0d0f3c16253590c83ce8c.webp",
+      "/upload/2023/cars/48288fcc02be9f1b24bb3139dd3150fa.webp",
+      "/upload/2023/cars/f98e8f8adefd0aa5ec4dfe09f962c4a1.webp",
+      "/upload/2023/cars/78d0bf50782a064b08148fcdff2e4c9c.webp",
+      "/upload/2023/cars/9997cc7579a7eb0c8fe44a769a49c12d.webp"
+    ],
+    "stats": false,
+    "status": 1,
+    "link": "/cars/detail/toyota/land-cruiser-prado/638"
+  },
+  {
+    "id": 11222006,
+    "title": "Mitsubishi ASX I, 2010",
+    "isPriority": false,
+    "label": null,
+    "isFavorite": false,
+    "price": {
+      "prev": false,
+      "byn": "32 315 BYN",
+      "usd": "11 200 USD",
+      "eur": "10 134 EUR"
+    },
+    "description": "170000 км <br /> 2010г. / 2.0 mt 150 л.c. 4x4 / бензин / механика / полный / внедорожник 5 дв.",
+    "city": "Лельчицы",
+    "seller": false,
+    "finance": false,
+    "lastTimeUp": "18 минут назад",
+    "image": [
+      "/upload/2023/04/27/25a47674dd483a0e021a883198de0dc1.webp",
+      "/upload/2023/04/19/ef90a7dc357cd02f8abb13cafc982b3e.webp",
+      "/upload/2023/04/19/cf1e0fd3224d04bde3c481b58f761b54.webp",
+      "/upload/2023/04/19/76d5621572f9162b24cbab89e8e9dc8c.webp",
+      "/upload/2023/04/19/b017650a5a7e46083091686a5ea07d05.webp",
+      "/upload/2023/04/19/1b39e7a34d46b9ca58ffba8cf14bdb1e.webp"
+    ],
+    "stats": false,
+    "status": 1,
+    "link": "/cars/detail/mitsubishi/asx/11222006"
+  },
+  {
+    "id": 11194151,
+    "title": "Ford Focus IV, 2019",
+    "isPriority": false,
+    "label": null,
+    "isFavorite": false,
+    "price": {
+      "prev": false,
+      "byn": "46 164 BYN",
+      "usd": "16 000 USD",
+      "eur": "14 477 EUR"
+    },
+    "description": "219000 км <br /> 2019г. / 1.5 mt 120 л.c. / дизель / механика / передний / универсал",
+    "city": "Минск",
+    "seller": false,
+    "finance": false,
+    "lastTimeUp": "19 минут назад",
+    "image": [
+      "/upload/2023/04/08/d9687debdbebaaa11b3fa5a20b2c33b6.webp",
+      "/upload/2023/04/08/17dce313b9e0b28b85aa3844afc2bdbd.webp",
+      "/upload/2023/04/08/dc4f86f33e39b0983161138ca2930c44.webp",
+      "/upload/2023/04/08/4b707811e7adb1ab2a1f69593d871f5c.webp",
+      "/upload/2023/04/08/14908b795d89e07074b8f30ce0ac3e5e.webp",
+      "/upload/2023/04/08/64faf2827e3db2f9532513ea7f3c75f6.webp"
+    ],
+    "stats": false,
+    "status": 1,
+    "link": "/cars/detail/ford/focus/11194151"
+  },
+  {
+    "id": 11263123,
+    "title": "Nissan Qashqai II, 2019",
+    "isPriority": false,
+    "label": null,
+    "isFavorite": false,
+    "price": {
+      "prev": false,
+      "byn": "65 208 BYN",
+      "usd": "22 600 USD",
+      "eur": "20 450 EUR"
+    },
+    "description": "23600 км <br /> 2019г. /  бензин / вариатор / передний / внедорожник 5 дв.",
+    "city": "Барановичи",
+    "seller": false,
+    "finance": false,
+    "lastTimeUp": "21 минут назад",
+    "image": [
+      "/upload/2023/05/02/bf4c3f98657c79d810856840d6fa69dd.webp",
+      "/upload/2023/05/02/82d3bd44864a11ebdbdd2bdc16cca311.webp",
+      "/upload/2023/05/02/effea4e889a08f2a48aa376aa9bb2b9a.webp",
+      "/upload/2023/05/02/1268516f604c0f724ba48b13166dd6f4.webp",
+      "/upload/2023/05/02/843b30c56159356e041a2288066aac75.webp",
+      "/upload/2023/05/02/6633a9203e4f8c7967185e12d9ae24de.webp"
+    ],
+    "stats": false,
+    "status": 1,
+    "link": "/cars/detail/nissan/qashqai/11263123"
+  },
+  {
+    "id": 11329806,
+    "title": "Fiat Punto III Grande Punto, 2008",
+    "isPriority": false,
+    "label": null,
+    "isFavorite": false,
+    "price": {
+      "prev": false,
+      "byn": "17 168 BYN",
+      "usd": "5 950 USD",
+      "eur": "5 384 EUR"
+    },
+    "description": "170000 км <br /> 2008г. / 1.4 amt 77 л.c. / бензин / робот / передний / хэтчбек 5 дв.",
+    "city": "Минск",
+    "seller": false,
+    "finance": {
+      "title": "В лизинг от 395 руб/мес",
+      "modal": "modal-adverts-finance-2",
+      "link": false
+    },
+    "lastTimeUp": "22 минут назад",
+    "image": [
+      "/upload/2023/05/06/8f1828c622389f90bf373d51d10c3659.webp",
+      "/upload/2023/05/06/2c43ba7d76c07231b6e2c4b6406b4607.webp",
+      "/upload/2023/05/06/26778cfdd07c90bf0889bea8583ff815.webp",
+      "/upload/2023/05/06/ea845f9886361d88ae0f451733f1c953.webp",
+      "/upload/2023/05/06/ce189ebad5ef268d4539e46528f26718.webp",
+      "/upload/2023/05/06/fc4c05de36c20722604598b27a040105.webp"
+    ],
+    "stats": false,
+    "status": 1,
+    "link": "/cars/detail/fiat/punto/11329806"
+  },
+  {
+    "id": 11251993,
+    "title": "Ford Escape III Рестайлинг, 2019",
+    "isPriority": false,
+    "label": null,
+    "isFavorite": false,
+    "price": {
+      "prev": false,
+      "byn": "53 378 BYN",
+      "usd": "18 500 USD",
+      "eur": "16 740 EUR"
+    },
+    "description": "54000 км <br /> 2019г. / 1.5 at 182 л.с. 4x4 / бензин / автомат / полный / внедорожник 5 дв.",
+    "city": "Минск",
+    "seller": false,
+    "finance": false,
+    "lastTimeUp": "22 минут назад",
+    "image": [
+      "/upload/2023/04/19/476ad2b1824ec09d3d02d4353bccc639.webp",
+      "/upload/2023/04/19/acd458658ebdac47ede9da4f6935740d.webp",
+      "/upload/2023/04/19/a3dfb4c814e9c6f4c5c883f2f53d578c.webp",
+      "/upload/2023/04/19/158e746e71f176f92d7f162c182f3711.webp",
+      "/upload/2023/04/19/e6c4b14a420ca05beb85699f83dedd75.webp",
+      "/upload/2023/04/19/ccba2461dd2b8c8a00682e9061ca05c8.webp"
+    ],
+    "stats": false,
+    "status": 1,
+    "link": "/cars/detail/ford/escape/11251993"
+  },
+  {
+    "id": 10987749,
+    "title": "Ford Escape III Рестайлинг, 2019",
+    "isPriority": false,
+    "label": null,
+    "isFavorite": false,
+    "price": {
+      "prev": false,
+      "byn": "53 378 BYN",
+      "usd": "18 500 USD",
+      "eur": "16 739 EUR"
+    },
+    "description": "104000 км <br /> 2019г. /  бензин / автомат / полный / внедорожник 5 дв.",
+    "city": "Минск",
+    "seller": false,
+    "finance": false,
+    "lastTimeUp": "22 минут назад",
+    "image": [
+      "/upload/2023/04/10/3265c01775572b25ddc26256f188901b.webp",
+      "/upload/2023/04/10/dda190398baeb88a795b8eb33d63432b.webp",
+      "/upload/2023/04/10/920bcb7cbeda960dd7fc4b98cfcf9573.webp",
+      "/upload/2023/04/10/f1686a85569bb63d0dbcb39793d54ce9.webp",
+      "/upload/2023/04/10/0056c8585614b26214d1cafed3de5519.webp",
+      "/upload/2023/04/10/9c064e05defd9dd403af6e40b3a75696.webp"
+    ],
+    "stats": false,
+    "status": 1,
+    "link": "/cars/detail/ford/escape/10987749"
+  },
+  {
+    "id": 11062462,
+    "title": "Ford Focus III, 2013",
+    "isPriority": false,
+    "label": null,
+    "isFavorite": false,
+    "price": {
+      "prev": false,
+      "byn": "29 430 BYN",
+      "usd": "10 200 USD",
+      "eur": "9 229 EUR"
+    },
+    "description": "172000 км <br /> 2013г. / 1.6 mt 125 л.c. / бензин / механика / передний / седан",
+    "city": "Минск",
+    "seller": false,
+    "finance": false,
+    "lastTimeUp": "24 минут назад",
+    "image": [
+      "/upload/2023/03/20/be39bcd152f6f9a7e75ed0bb6e454792.webp",
+      "/upload/2023/03/20/2d75b1ebe3defa7b71834a30a860bee8.webp",
+      "/upload/2023/03/20/b67b6f0cf119d646ea7a13464c01374b.webp",
+      "/upload/2023/03/20/ec8dcddd37f49a56fa2647b184d76ab1.webp",
+      "/upload/2023/03/20/52865a147cce32279a5de39aa7d01444.webp"
+    ],
+    "stats": false,
+    "status": 1,
+    "link": "/cars/detail/ford/focus/11062462"
+  },
+  {
+    "id": 11103981,
+    "title": "Citroen Xsara Picasso I, 2001",
+    "isPriority": false,
+    "label": null,
+    "isFavorite": false,
+    "price": {
+      "prev": false,
+      "byn": "11 541 BYN",
+      "usd": "4 000 USD",
+      "eur": "3 619 EUR"
+    },
+    "description": "394181 км <br /> 2001г. / 2.0 mt 90 л.c. / дизель / механика / передний / минивэн",
+    "city": "Барановичи",
+    "seller": false,
+    "finance": {
+      "title": "В лизинг от 265 руб/мес",
+      "modal": "modal-adverts-finance-2",
+      "link": false
+    },
+    "lastTimeUp": "27 минут назад",
+    "image": [
+      "/upload/2023/05/08/bcf2d48d7c854d7b3ec571e6629cec18.webp",
+      "/upload/2023/05/08/446cfad835018ab6c305c209ad31a019.webp",
+      "/upload/2023/03/26/7869f8a3d715122586ff5d87ed757b9e.webp",
+      "/upload/2023/03/26/ed2e81d5cf89dae3a8d36a8406ec6e85.webp",
+      "/upload/2023/03/26/76755b9456f81146f63f1c4a57ea1ab8.webp",
+      "/upload/2023/03/26/9457dff4562cc3b6c6f6d41c6209095d.webp"
+    ],
+    "stats": false,
+    "status": 1,
+    "link": "/cars/detail/citroen/xsara-picasso/11103981"
+  },
+  {
+    "id": 11221166,
+    "title": "Kia Rio III, 2014",
+    "isPriority": false,
+    "label": null,
+    "isFavorite": false,
+    "price": {
+      "prev": false,
+      "byn": "25 968 BYN",
+      "usd": "9 000 USD",
+      "eur": "8 144 EUR"
+    },
+    "description": "106300 км <br /> 2014г. / 1.6 mt 123 л.c. / бензин / механика / передний / седан",
+    "city": "Витебск",
+    "seller": false,
+    "finance": {
+      "title": "В лизинг от 597 руб/мес",
+      "modal": "modal-adverts-finance-2",
+      "link": false
+    },
+    "lastTimeUp": "30 минут назад",
+    "image": [
+      "/upload/2023/04/18/250ceea5348e0d6b53408d65ee2e95af.webp",
+      "/upload/2023/04/18/11a302512f0f34793ea6f7884752a2c3.webp",
+      "/upload/2023/04/18/a09aa9b9741f554cb410285708a21bac.webp",
+      "/upload/2023/04/18/f6337e48f22f7ce674afc8ea4ceb49f5.webp",
+      "/upload/2023/04/18/a61a700311047a0294fea55fcf075a13.webp",
+      "/upload/2023/04/18/b3ecd8655563ddcf58ccd33b357ff227.webp"
+    ],
+    "stats": false,
+    "status": 1,
+    "link": "/cars/detail/kia/rio/11221166"
+  },
+  {
+    "id": 11263070,
+    "title": "Opel Insignia I Рестайлинг, 2015",
+    "isPriority": false,
+    "label": null,
+    "isFavorite": false,
+    "price": {
+      "prev": false,
+      "byn": "45 588 BYN",
+      "usd": "15 800 USD",
+      "eur": "14 297 EUR"
+    },
+    "description": "250000 км <br /> 2015г. /  дизель / автомат / передний / универсал",
+    "city": "Минск",
+    "seller": false,
+    "finance": false,
+    "lastTimeUp": "31 минут назад",
+    "image": [
+      "/upload/2023/05/01/0305faaaa4e2cefde23817d8f467518d.webp",
+      "/upload/2023/05/01/86a5b5a3c715d65fc32df9e426ba5b61.webp",
+      "/upload/2023/05/01/e7d8493ae18d0a0e4f2a35cb06c41107.webp",
+      "/upload/2023/05/01/a9f5e3b5083237dc64194a477c74b4bc.webp",
+      "/upload/2023/05/01/e5058b676ded0cbf025833991740bde4.webp",
+      "/upload/2023/05/01/e661f2f2c4da578457616329e25ab193.webp"
+    ],
+    "stats": false,
+    "status": 1,
+    "link": "/cars/detail/opel/insignia/11263070"
+  },
+  {
+    "id": 11264491,
+    "title": "BMW 3 series VI (F3x), 2016",
+    "isPriority": false,
+    "label": null,
+    "isFavorite": false,
+    "price": {
+      "prev": false,
+      "byn": "54 243 BYN",
+      "usd": "18 800 USD",
+      "eur": "17 011 EUR"
+    },
+    "description": "250000 км <br /> 2016г. / 2.0 mt 150 л.c. / дизель / механика / задний / хэтчбек 5 дв.",
+    "city": "Минск",
+    "seller": false,
+    "finance": false,
+    "lastTimeUp": "32 минут назад",
+    "image": [
+      "/upload/2023/05/03/af04affeb6605479163aeb3d28993021.webp",
+      "/upload/2023/05/03/42b382e3e09f639a2cddf386a415ba16.webp",
+      "/upload/2023/05/03/b90ad9380e6c978d23841c79202b95df.webp",
+      "/upload/2023/05/03/09cdc676996803fa2fa17304fe95d6fa.webp",
+      "/upload/2023/05/03/4998d94d69bb22198870908dc9b7961d.webp",
+      "/upload/2023/05/03/628548b37a4299bad9b57df6d53fb767.webp"
+    ],
+    "stats": false,
+    "status": 1,
+    "link": "/cars/detail/bmw/3er/11264491"
+  },
+  {
+    "id": 11269271,
+    "title": "Ford Edge II, 2019",
+    "isPriority": false,
+    "label": null,
+    "isFavorite": false,
+    "price": {
+      "prev": false,
+      "byn": "104 448 BYN",
+      "usd": "36 200 USD",
+      "eur": "32 756 EUR"
+    },
+    "description": "118000 км <br /> 2019г. /  дизель / автомат / полный / внедорожник 5 дв.",
+    "city": "Светлогорск",
+    "seller": false,
+    "finance": false,
+    "lastTimeUp": "33 минут назад",
+    "image": [
+      "/upload/2023/05/04/41d26d632682d23582b704da6a029a92.webp",
+      "/upload/2023/05/04/3fa3cacf803ae6d9c12c91d64dd3c527.webp",
+      "/upload/2023/05/04/68742eb67c5effcf01959a230f76cb9c.webp",
+      "/upload/2023/05/04/8a9701e89cbb84c3d7e6c305eadcd717.webp",
+      "/upload/2023/05/04/205d391e438855d07eab06ebd6e88a1e.webp",
+      "/upload/2023/05/04/8733aa62385b6940adb965393ed40905.webp"
+    ],
+    "stats": false,
+    "status": 1,
+    "link": "/cars/detail/ford/edge/11269271"
+  }
+]

@@ -24,14 +24,14 @@ class ServiceForListAbonentsTest {
                 new Abonent("Kevin", "Smith", "6483ASE", LocalDate.of(1995, 8, 9), LocalDate.of(2020, 1, 15), false, "Berdiansk")
         );
         //when
-        NullPointerException madrid = assertThrows(NullPointerException.class, () -> target.isVipAbonents(abonents, "Madrid"));
+        NullPointerException madrid = assertThrows(NullPointerException.class, () -> target.isAnyVipInCity(abonents, "Madrid"));
         //then
         assertEquals(NullPointerException.class, madrid.getClass());
     }
 
     @Test
     void shouldReturnTrue_whenVipAbonentIsPresent() {
-//given
+        //given
         List<Abonent> abonents = List.of(
                 new Abonent("Lena", "Lomonosova", "LL123456", LocalDate.of(1989, 5, 24), LocalDate.of(2021, 7, 30), true, "New York"),
                 new Abonent("Andrej", "Lomonosov", "AL123456", LocalDate.of(1987, 11, 4), LocalDate.of(2018, 12, 28), true, "Madrid"),
@@ -43,7 +43,7 @@ class ServiceForListAbonentsTest {
                 new Abonent("Kevin", "Smith", "6483ASE", LocalDate.of(1995, 8, 9), LocalDate.of(2020, 1, 15), false, "Berdiansk")
         );
         //when
-        Boolean actual = target.isVipAbonents(abonents, "Madrid");
+        Boolean actual = target.isAnyVipInCity(abonents, "Madrid");
         //then
         assertTrue(actual);
     }
@@ -60,7 +60,7 @@ class ServiceForListAbonentsTest {
                 new Abonent("Kevin", "Smith", "6483ASE", LocalDate.of(1995, 8, 9), LocalDate.of(2020, 1, 15), false, "Berdiansk")
         );
         //when
-        Boolean actual = target.isVipAbonents(abonents, "Madrid");
+        Boolean actual = target.isAnyVipInCity(abonents, "Madrid");
         //then
         assertFalse(actual);
 
@@ -78,7 +78,7 @@ class ServiceForListAbonentsTest {
                 new Abonent("Kevin", "Smith", "6483ASE", LocalDate.of(1995, 8, 9), LocalDate.of(2020, 1, 15), false, "Berdiansk")
         );
         //when
-        assertTrue(target.contractBeforeDate(abonents, LocalDate.of(2010, 5, 5)));
+        assertTrue(target.areAllContractsBeforeDate(abonents, LocalDate.of(2010, 5, 5)));
         //then
     }
 
@@ -94,7 +94,7 @@ class ServiceForListAbonentsTest {
                 new Abonent("Kevin", "Smith", "6483ASE", LocalDate.of(1995, 8, 9), LocalDate.of(2020, 1, 15), false, "Berdiansk")
         );
         //when
-        assertFalse(target.contractBeforeDate(abonents, LocalDate.of(2011, 11, 11)));
+        assertFalse(target.areAllContractsBeforeDate(abonents, LocalDate.of(2011, 11, 11)));
         //then
     }
 
@@ -110,7 +110,8 @@ class ServiceForListAbonentsTest {
                 new Abonent("Kevin", "Smith", "6483ASE", LocalDate.of(1995, 8, 9), LocalDate.of(2020, 1, 15), false, "Berdiansk")
         );
         //when
-        assertThrows(NullPointerException.class, () -> target.contractBeforeDate(abonents, LocalDate.of(2009, 5, 6)));
+        assertThrows(NullPointerException.class, () -> target.areAllContractsBeforeDate(abonents, LocalDate.of(2009, 5, 6)));
+        //then
     }
 
     @Test
@@ -125,7 +126,8 @@ class ServiceForListAbonentsTest {
                 new Abonent("Kevin", "Smith", "6483ASE", LocalDate.of(1995, 8, 9), LocalDate.of(2020, 1, 15), false, "Berdiansk")
         );
         //when
-        assertDoesNotThrow(() -> target.contractBeforeDate(abonents, LocalDate.of(2015, 5, 6)));
+        assertDoesNotThrow(() -> target.areAllContractsBeforeDate(abonents, LocalDate.of(2015, 5, 6)));
+        //then
     }
 
     @Test
@@ -141,7 +143,7 @@ class ServiceForListAbonentsTest {
         );
         Abonent expected = new Abonent("Alina", "Keymar", "LL12PI56", LocalDate.of(1999, 7, 10), LocalDate.of(2011, 10, 23), false, "Rovno");
         //when
-        Abonent actual = target.abonentFromCity(abonents, "Rovno");
+        Abonent actual = target.findAnyAbonentFromCity(abonents, "Rovno");
         //then
         assertEquals(expected, actual);
     }
@@ -159,7 +161,7 @@ class ServiceForListAbonentsTest {
         );
         String expected = "Any abonent wasn't find";
         //when
-        IllegalArgumentException london = assertThrows(IllegalArgumentException.class, () -> target.abonentFromCity(abonents, "London"));
+        IllegalArgumentException london = assertThrows(IllegalArgumentException.class, () -> target.findAnyAbonentFromCity(abonents, "London"));
         //then
         assertEquals(expected, london.getMessage());
     }
@@ -177,7 +179,7 @@ class ServiceForListAbonentsTest {
         );
         String expected = "Any abonent wasn't find";
         //when
-        IllegalArgumentException actual = assertThrows(IllegalArgumentException.class, () -> target.abonentFromCity(abonents, "London"));
+        IllegalArgumentException actual = assertThrows(IllegalArgumentException.class, () -> target.findAnyAbonentFromCity(abonents, "London"));
         //then
         assertEquals(expected, actual.getMessage());
     }

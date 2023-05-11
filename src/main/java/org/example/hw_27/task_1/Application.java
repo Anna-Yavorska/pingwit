@@ -39,11 +39,11 @@ public class Application {
                 new Abonent("Denis", "Radov", "LGOO2589", LocalDate.of(1988, 5, 15), LocalDate.of(2021, 1, 10), true, "Zaporozhje")
         );
 
-        Boolean isVipAbonents = forListAbonents.isVipAbonents(abonents, "New York");
+        Boolean isVipAbonents = forListAbonents.isAnyVipInCity(abonents, "New York");
         System.out.println(isVipAbonents ? "Yes" : "No");
-        Abonent abonentFromCity = forListAbonents.abonentFromCity(abonents, "Rovno");
+        Abonent abonentFromCity = forListAbonents.findAnyAbonentFromCity(abonents, "Rovno");
         System.out.println(abonentFromCity);
-        Boolean isBefore = forListAbonents.contractBeforeDate(abonents, LocalDate.of(2009, 7, 24));
+        Boolean isBefore = forListAbonents.areAllContractsBeforeDate(abonents, LocalDate.of(2009, 7, 24));
         System.out.println(isBefore);
 
         String statisticsByDateOfBirth = yearsStatistics.statisticsByDateOfBirth(abonents);

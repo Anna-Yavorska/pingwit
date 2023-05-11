@@ -3,9 +3,11 @@ package org.example.hw_26.task_5;
 import org.example.hw_26.task_2.Address;
 import org.junit.jupiter.api.Test;
 
+import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import static org.junit.jupiter.api.Assertions.*;
 import static org.assertj.core.api.Assertions.assertThat;
 
 /**
@@ -41,5 +43,36 @@ class StreetByCityMapperTest {
         // assertj
         assertThat(actual).containsExactlyElementsOf(expected);
 
+    }
+
+    @Test
+    void shouldThrowNullPointerException_whenCityIsNull() {
+        // given
+        List<Address> addresses = List.of(
+                new Address(null, "Polska", 15, 8),
+                new Address("Poznan", "Studentska", 45, 3),
+                new Address("Kyiv", "Zelena", 3, 6),
+                new Address("Kyiv", "Studentska", 43, 36),
+                new Address("Warshawa", "Zelena", 5, 8),
+                new Address("Lviv", "Zelena", 6, 9),
+                new Address("Warshawa", "Polska", 1, 74),
+                new Address("Warshawa", "Shopena", 11, 13));
+        //when
+        assertThrows(NullPointerException.class, () -> target.mapToCities(addresses, "Lviv"));
+        //then
+    }
+
+    @Test
+    void shouldReturnEmptySet_whenCityIsNotInTheList() {
+        //given
+        List<Address> addresses = List.of(
+                new Address("Kyiv", "Studentska", 43, 36),
+                new Address("Warshawa", "Zelena", 5, 8),
+                new Address("Lviv", "Zelena", 6, 9));
+        Set<CityStreet> expected = new HashSet<>();
+        //when
+        Set<CityStreet> actual = target.mapToCities(addresses, "Poznan");
+        //then
+        assertEquals(expected, actual);
     }
 }
