@@ -12,6 +12,11 @@ public class Truck extends Thread {
         for (int i = 0; i < 1250; i++) {
             gravelHeap.increase(2);
             System.out.println("Привез 2 тонны");
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
         }
     }
 }
