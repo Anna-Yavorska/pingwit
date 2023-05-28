@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb078b7c-f893-4490-ac78-33804eb9f8e3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_32/task_1/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_32/task_1/GravelHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_32/task_1/Truck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/hw_27/task_1/ServiceForListAbonentsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/hw_27/task_1/ServiceForListAbonentsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +46,13 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "extract.method.default.visibility": "private",
-    "last_opened_file_path": "C:/Users/aniay/IdeaProjects/home-library",
+    "last_opened_file_path": "C:/Users/aniay/VisualVMLauncher.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -74,14 +76,29 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.hw_29.task_1" />
       <recent name="org.example.hw_27.task_1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.hw_29.task_1" />
       <recent name="org.example.hw_26.task_5" />
       <recent name="org.example.hw_26.task_2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GreetingServiceTest">
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_32.task_1.Application" />
+      <module name="java-home" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.hw_32.task_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RegexpHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.hw_20.task_2.RegexpHomework" />
       <module name="java-home" />
@@ -136,36 +153,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreetByCityMapperTest.shouldReturnEmptySet_whenCityIsNotInTheList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-home" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.hw_26.task_5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.hw_26.task_5" />
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_26.task_5.StreetByCityMapperTest" />
-      <option name="METHOD_NAME" value="shouldReturnEmptySet_whenCityIsNotInTheList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.Application" />
       <item itemvalue="Application.RegexpHomework" />
       <item itemvalue="Application.org.example.hw_28.task_1.Application" />
       <item itemvalue="Application.org.example.hw_28.task_2.Application" />
       <item itemvalue="JUnit.GreetingServiceTest" />
-      <item itemvalue="JUnit.StreetByCityMapperTest.shouldReturnEmptySet_whenCityIsNotInTheList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application" />
         <item itemvalue="JUnit.GreetingServiceTest" />
         <item itemvalue="Application.RegexpHomework" />
         <item itemvalue="Application.org.example.hw_28.task_2.Application" />
         <item itemvalue="Application.org.example.hw_28.task_1.Application" />
-        <item itemvalue="JUnit.StreetByCityMapperTest.shouldReturnEmptySet_whenCityIsNotInTheList" />
       </list>
     </recent_temporary>
   </component>
