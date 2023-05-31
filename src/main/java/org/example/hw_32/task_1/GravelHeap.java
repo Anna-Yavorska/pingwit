@@ -1,13 +1,15 @@
 package org.example.hw_32.task_1;
 
-public class GravelHeap {
-    private int weight = 0;
+import java.util.concurrent.atomic.AtomicInteger;
 
-    public int getWeight() {
+public class GravelHeap {
+    private final AtomicInteger weight = new AtomicInteger(0);
+
+    public AtomicInteger getWeight() {
         return weight;
     }
 
     public void increase(int amount) {
-        weight = weight + amount;
+        weight.addAndGet(amount);
     }
 }

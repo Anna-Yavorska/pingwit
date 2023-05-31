@@ -5,7 +5,7 @@ import java.io.*;
 
 public class CopyOfPictureWithBuffer {
     public static void main(String[] args) {
-        String pathOfOriginal = "src/main/java/org/example/hw_16/files/img.png";
+        String pathOfOriginal = "src/main/java/org/example/hw_16/files/city.png";
         String pathOfCopy = "src/main/java/org/example/hw_16/files/buffered_img.png";
 
         try (BufferedInputStream bufferedInputStream = new BufferedInputStream(new FileInputStream(pathOfOriginal));

@@ -9,15 +9,13 @@ public class Application {
         Truck fourthTruck = new Truck(gravelHeap);
 
         firstTruck.start();
-        firstTruck.join();
-
         secondTruck.start();
-        secondTruck.join();
-
         thirdTruck.start();
-        thirdTruck.join();
-
         fourthTruck.start();
+
+        firstTruck.join();
+        secondTruck.join();
+        thirdTruck.join();
         fourthTruck.join();
 
         System.out.println(gravelHeap.getWeight());
