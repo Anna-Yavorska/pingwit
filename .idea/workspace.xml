@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb078b7c-f893-4490-ac78-33804eb9f8e3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_36/task_1/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_36/task_1/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_36/task_2/AdditionListToDataBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,26 +87,13 @@
       <recent name="org.example.hw_26.task_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CopyOfPictureWithFile">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_32.task_1.Application" />
+  <component name="RunManager" selected="Application.AdditionListToDataBase">
+    <configuration name="AdditionListToDataBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_36.task_2.AdditionListToDataBase" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_32.task_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CopyOfPictureWithFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_16.task_1.CopyOfPictureWithFile" />
-      <module name="java-home" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.hw_16.task_1.*" />
+          <option name="PATTERN" value="org.example.hw_36.task_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,6 +127,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.hw_36.task_1.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_36.task_1.Application" />
+      <module name="java-home" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.hw_36.task_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GreetingServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-home" />
       <extension name="coverage">
@@ -152,16 +156,16 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CopyOfPictureWithFile" />
-      <item itemvalue="Application.Application" />
+      <item itemvalue="Application.AdditionListToDataBase" />
+      <item itemvalue="Application.org.example.hw_36.task_1.Application" />
       <item itemvalue="Application.org.example.hw_28.task_1.Application" />
       <item itemvalue="Application.org.example.hw_28.task_2.Application" />
       <item itemvalue="JUnit.GreetingServiceTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CopyOfPictureWithFile" />
-        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.AdditionListToDataBase" />
+        <item itemvalue="Application.org.example.hw_36.task_1.Application" />
         <item itemvalue="JUnit.GreetingServiceTest" />
         <item itemvalue="Application.org.example.hw_28.task_2.Application" />
         <item itemvalue="Application.org.example.hw_28.task_1.Application" />
