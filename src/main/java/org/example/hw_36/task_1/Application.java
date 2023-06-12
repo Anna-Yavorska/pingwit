@@ -4,20 +4,24 @@ import java.sql.*;
 
 
 public class Application {
-    private static final String URL = "jdbc:postgresql://localhost:5432/pingwit_shop";
+    private static final String URL = "jdbc:postgresql://localhost:5432/hw_35";
     private static final String USERNAME = "pingwit";
     private static final String PASSWORD = "pingwit_password";
     private static final int STEP = 2;
-    // это число нужно получить запросом к базе данных
-    private static final int QUANTITY_PRODUCT = 17;
 
     public static void main(String[] args) {
         int coefficient = 0;
+        int productsQuantity = 0;
         try {
             Class.forName("org.postgresql.Driver");
             Connection connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
+            PreparedStatement statement = connection.prepareStatement("SELECT count(id) FROM products");
+            ResultSet result = statement.executeQuery();
 
-            while (coefficient <= QUANTITY_PRODUCT) {
+            if (result.next()) {
+                productsQuantity = result.getInt(1);
+            }
+            while (coefficient <= productsQuantity) {
                 String select = String.format("SELECT * FROM products LIMIT 2 OFFSET %d", coefficient);
                 PreparedStatement preparedStatement = connection.prepareStatement(select);
                 ResultSet resultSet = preparedStatement.executeQuery();

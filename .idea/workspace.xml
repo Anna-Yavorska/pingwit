@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb078b7c-f893-4490-ac78-33804eb9f8e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_36/task_1/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_36/task_1/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_36/task_2/AdditionListToDataBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_36/task_1/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_36/task_1/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +84,7 @@
       <recent name="org.example.hw_26.task_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AdditionListToDataBase">
+  <component name="RunManager" selected="Application.org.example.hw_36.task_1.Application">
     <configuration name="AdditionListToDataBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.hw_36.task_2.AdditionListToDataBase" />
       <module name="java-home" />
@@ -164,8 +161,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AdditionListToDataBase" />
         <item itemvalue="Application.org.example.hw_36.task_1.Application" />
+        <item itemvalue="Application.AdditionListToDataBase" />
         <item itemvalue="JUnit.GreetingServiceTest" />
         <item itemvalue="Application.org.example.hw_28.task_2.Application" />
         <item itemvalue="Application.org.example.hw_28.task_1.Application" />
