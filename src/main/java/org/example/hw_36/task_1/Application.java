@@ -2,11 +2,13 @@ package org.example.hw_36.task_1;
 
 import java.sql.*;
 
+
 public class Application {
-    private static final String URL = "jdbc:postgresql://localhost:5432/hw_35";
+    private static final String URL = "jdbc:postgresql://localhost:5432/pingwit_shop";
     private static final String USERNAME = "pingwit";
     private static final String PASSWORD = "pingwit_password";
     private static final int STEP = 2;
+    // это число нужно получить запросом к базе данных
     private static final int QUANTITY_PRODUCT = 17;
 
     public static void main(String[] args) {
