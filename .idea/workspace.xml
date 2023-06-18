@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb078b7c-f893-4490-ac78-33804eb9f8e3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_37/task_1/inserts.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_37/task_2/OrderItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_37/task_2/TransactionForInserts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_36/task_1/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_36/task_1/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +23,7 @@
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -84,7 +87,7 @@
       <recent name="org.example.hw_26.task_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.hw_36.task_1.Application">
+  <component name="RunManager" selected="Application.TransactionForInserts">
     <configuration name="AdditionListToDataBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.hw_36.task_2.AdditionListToDataBase" />
       <module name="java-home" />
@@ -98,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.hw_28.task_1.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_28.task_1.Application" />
+    <configuration name="LOL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_37.LOL" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_28.task_1.*" />
+          <option name="PATTERN" value="org.example.hw_37.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.hw_28.task_2.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw_28.task_2.Application" />
+    <configuration name="TransactionForInserts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_37.task_2.TransactionForInserts" />
       <module name="java-home" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw_28.task_2.*" />
+          <option name="PATTERN" value="org.example.hw_37.task_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,19 +156,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.LOL" />
+      <item itemvalue="Application.TransactionForInserts" />
       <item itemvalue="Application.AdditionListToDataBase" />
       <item itemvalue="Application.org.example.hw_36.task_1.Application" />
-      <item itemvalue="Application.org.example.hw_28.task_1.Application" />
-      <item itemvalue="Application.org.example.hw_28.task_2.Application" />
       <item itemvalue="JUnit.GreetingServiceTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TransactionForInserts" />
+        <item itemvalue="Application.LOL" />
         <item itemvalue="Application.org.example.hw_36.task_1.Application" />
         <item itemvalue="Application.AdditionListToDataBase" />
         <item itemvalue="JUnit.GreetingServiceTest" />
-        <item itemvalue="Application.org.example.hw_28.task_2.Application" />
-        <item itemvalue="Application.org.example.hw_28.task_1.Application" />
       </list>
     </recent_temporary>
   </component>
