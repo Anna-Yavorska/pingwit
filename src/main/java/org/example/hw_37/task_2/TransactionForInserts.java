@@ -4,6 +4,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+// все отлично
 public class TransactionForInserts {
     private static final String URL = "jdbc:postgresql://localhost:5432/hw_35";
     private static final String USERNAME = "pingwit";

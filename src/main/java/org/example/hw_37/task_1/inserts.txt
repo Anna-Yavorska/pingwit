@@ -12,3 +12,5 @@ INSERT INTO order_items (id, order_id, product_id, quantity)
 VALUES (51, 8, 51, 1);
 
 COMMIT;
+
+--Все отлично!
